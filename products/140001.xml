@@ -1,0 +1,297 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns1:getPolicyCCResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sch1="http://sl/common/schema" xmlns:ns1="http://sl/ignite/schema">
+         <sch1:systemId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:systemId>
+         <sch1:messageId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:messageId>
+         <sch1:correlationId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:correlationId>
+         <ns1:policy>
+            <ns1:policyId>${ID}</ns1:policyId>
+            <ns1:objectId>-1</ns1:objectId>
+            <ns1:product>
+               <ns1:productId>140001</ns1:productId>
+               <ns1:productCode>ACCIDENT_INSURANCE</ns1:productCode>
+               <ns1:name>Несчастные случаи и болезни</ns1:name>
+               <ns1:descr>страхования жизни</ns1:descr>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>160001</ns1:riskId>
+                     <ns1:riskCode>ACCIDENT_DISABILITY</ns1:riskCode>
+                     <ns1:name>Установление Застрахованному I или II группы инвалидности в результате несчастного случая, происшедшего в период страхования</ns1:name>
+                     <ns1:descr/>
+                     <ns1:fullDescr/>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>160000</ns1:riskId>
+                     <ns1:riskCode>ACCIDENT_DEATH</ns1:riskCode>
+                     <ns1:name>Смерть Застрахованного в результате несчастного случая, происшедшего в период страхования</ns1:name>
+                     <ns1:descr/>
+                     <ns1:fullDescr/>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>160005</ns1:riskId>
+                     <ns1:riskCode>TIMEDISABILITY_ACCIDENT</ns1:riskCode>
+                     <ns1:name>Временная нетрудоспособность Застрахованного в результате несчастного случая, произошедшего в период страхования</ns1:name>
+                     <ns1:descr/>
+                     <ns1:fullDescr/>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>160004</ns1:riskId>
+                     <ns1:riskCode>TIMEDISABILITY_DESEASE</ns1:riskCode>
+                     <ns1:name>Временная нетрудоспособность Застрахованного в результате заболевания, впервые диагностированного в период страхования</ns1:name>
+                     <ns1:descr/>
+                     <ns1:fullDescr/>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>160003</ns1:riskId>
+                     <ns1:riskCode>DISEASE_DISABILITY</ns1:riskCode>
+                     <ns1:name>Установление Застрахованному инвалидности I или II группы в связи с заболеванием, впервые диагностированным в период страхования</ns1:name>
+                     <ns1:descr/>
+                     <ns1:fullDescr/>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>160002</ns1:riskId>
+                     <ns1:riskCode>DISEASE_DEATH</ns1:riskCode>
+                     <ns1:name>Смерть Застрахованного в результате заболевания, впервые диагностированного в период страхования</ns1:name>
+                     <ns1:descr/>
+                     <ns1:fullDescr/>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+            </ns1:product>
+            <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
+            <ns1:dateCreate>2020-01-29T03:00:00.000+03:00</ns1:dateCreate>
+            <ns1:dateStart>2020-01-29T03:00:00.000+03:00</ns1:dateStart>
+            <ns1:dateEnd>2020-02-28T03:00:00.000+03:00</ns1:dateEnd>
+            <ns1:policyStatus>
+               <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
+               <ns1:name>Оплачен</ns1:name>
+            </ns1:policyStatus>
+            <ns1:policyObjects>
+               <ns1:object xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>16113796</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>false</ns1:isResident>
+                  <ns1:firstName>Аркадий</ns1:firstName>
+                  <ns1:surname>Михайлов</ns1:surname>
+                  <ns1:secondName>Михайлович</ns1:secondName>
+                  <ns1:birthDate>1995-12-30+03:00</ns1:birthDate>
+                  <ns1:gender>1</ns1:gender>
+                  <ns1:fullName>Михайлов Аркадий Михайлович</ns1:fullName>
+               </ns1:object>
+               <ns1:objectType>
+                  <ns1:objectTypeId>2</ns1:objectTypeId>
+                  <ns1:code>CONTRACTOR</ns1:code>
+                  <ns1:name>Contractor</ns1:name>
+                  <ns1:descr>contractor</ns1:descr>
+               </ns1:objectType>
+               <ns1:product>
+                  <ns1:productId>140001</ns1:productId>
+               </ns1:product>
+               <ns1:orderNo>0</ns1:orderNo>
+               <ns1:territoryId/>
+               <ns1:remark/>
+               <ns1:conditions>
+                  <ns1:conditionId>3846700</ns1:conditionId>
+                  <ns1:product>
+                     <ns1:productId>140001</ns1:productId>
+                  </ns1:product>
+                  <ns1:name/>
+                  <ns1:premium>418</ns1:premium>
+                  <ns1:insuranceSum>5800</ns1:insuranceSum>
+                  <ns1:beginDate>2020-01-29+03:00</ns1:beginDate>
+                  <ns1:endDate>2020-02-27+03:00</ns1:endDate>
+                  <ns1:duration>0</ns1:duration>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>140001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>160000</ns1:riskId>
+                        <ns1:riskCode>ACCIDENT_DEATH</ns1:riskCode>
+                        <ns1:name>Смерть Застрахованного в результате несчастного случая, происшедшего в период страхования</ns1:name>
+                        <ns1:descr/>
+                        <ns1:fullDescr/>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>140001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>160001</ns1:riskId>
+                        <ns1:riskCode>ACCIDENT_DISABILITY</ns1:riskCode>
+                        <ns1:name>Установление Застрахованному I или II группы инвалидности в результате несчастного случая, происшедшего в период страхования</ns1:name>
+                        <ns1:descr/>
+                        <ns1:fullDescr/>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>140001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>160002</ns1:riskId>
+                        <ns1:riskCode>DISEASE_DEATH</ns1:riskCode>
+                        <ns1:name>Смерть Застрахованного в результате заболевания, впервые диагностированного в период страхования</ns1:name>
+                        <ns1:descr/>
+                        <ns1:fullDescr/>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>140001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>160003</ns1:riskId>
+                        <ns1:riskCode>DISEASE_DISABILITY</ns1:riskCode>
+                        <ns1:name>Установление Застрахованному инвалидности I или II группы в связи с заболеванием, впервые диагностированным в период страхования</ns1:name>
+                        <ns1:descr/>
+                        <ns1:fullDescr/>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+               </ns1:conditions>
+            </ns1:policyObjects>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>16113795</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>Михайлов Аркадий Михайлович</ns1:name>
+                  <ns1:docs>
+                     <ns1:objectDocType>
+                        <ns1:objectDocTypeId>12</ns1:objectDocTypeId>
+                        <ns1:objectDocTypeCode>PASSPORT_RF</ns1:objectDocTypeCode>
+                        <ns1:name>Паспорт гражданина РФ</ns1:name>
+                     </ns1:objectDocType>
+                     <ns1:series>8205</ns1:series>
+                     <ns1:number>244121</ns1:number>
+                     <ns1:dateIssue>2010-06-22+04:00</ns1:dateIssue>
+                     <ns1:whom>Центральным ОВД гор. Бирск Республики Башкортостан</ns1:whom>
+                     <ns1:subdivisionCode>162-012</ns1:subdivisionCode>
+                     <ns1:isMain>false</ns1:isMain>
+                  </ns1:docs>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>false</ns1:isResident>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204672509</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>2</ns1:contactTypeId>
+                        <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                        <ns1:name>Email</ns1:name>
+                        <ns1:descr>email</ns1:descr>
+                     </ns1:contactType>
+                     <ns1:contact>duty@dm.com</ns1:contact>
+                     <ns1:contactPerson>Михайлов Аркадий Михайлович</ns1:contactPerson>
+                  </ns1:contacts>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204672510</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>1</ns1:contactTypeId>
+                        <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                     </ns1:contactType>
+                     <ns1:contact>89274415557</ns1:contact>
+                     <ns1:contactPerson>Михайлов Аркадий Михайлович</ns1:contactPerson>
+                  </ns1:contacts>
+                  <ns1:addresses>
+                     <ns1:addressType>
+                        <ns1:addressTypeId>1</ns1:addressTypeId>
+                        <ns1:addressTypeCode>REGISTRATION</ns1:addressTypeCode>
+                        <ns1:name>Адрес по месту регистрации</ns1:name>
+                     </ns1:addressType>
+                     <ns1:region>Республика Башкортостан</ns1:region>
+                     <ns1:district>р-н. Бирский</ns1:district>
+                     <ns1:city>г. Бирск</ns1:city>
+                     <ns1:locality/>
+                     <ns1:street>ул. Карла Маркса</ns1:street>
+                     <ns1:house>д. 1Б</ns1:house>
+                     <ns1:building/>
+                     <ns1:flat/>
+                     <ns1:okato/>
+                     <ns1:addressStr>г. Бирск Республики Башкортостан ПВС Центрального ОВД Ул. пр Мира Дом № 39 кв. 219</ns1:addressStr>
+                     <ns1:kladr/>
+                  </ns1:addresses>
+                  <ns1:firstName>Аркадий</ns1:firstName>
+                  <ns1:surname>Михайлов</ns1:surname>
+                  <ns1:secondName>Михайлович</ns1:secondName>
+                  <ns1:birthDate>1995-12-30+03:00</ns1:birthDate>
+                  <ns1:gender>1</ns1:gender>
+                  <ns1:fullName>Михайлов Аркадий Михайлович</ns1:fullName>
+                  <ns1:latName/>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>1</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURANT</ns1:participantTypeCode>
+                  <ns1:name>Страхователь</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+            </ns1:participant>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>2</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>PARTNER</ns1:classifierTypeCode>
+                  <ns1:name>Партнер</ns1:name>
+                  <ns1:descr>Идентификатор партнера, который создал полис</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue/>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>1</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>DEAL_REGION</ns1:classifierTypeCode>
+                  <ns1:name>Регион сделки</ns1:name>
+                  <ns1:descr>Регион, где произошла сделка</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue/>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>23</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>PARTNER_CODE</ns1:classifierTypeCode>
+                  <ns1:name>Код партнера</ns1:name>
+                  <ns1:descr>Код партнера</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>MFK_DENGI_MIGOM</ns1:classifierValue>
+            </ns1:classifiers>
+         </ns1:policy>
+      </ns1:getPolicyCCResponse>
+   </soap:Body>
+</soap:Envelope>

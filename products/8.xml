@@ -1,0 +1,506 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns1:getPolicyCCResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sch1="http://sl/common/schema" xmlns:ns1="http://sl/ignite/schema">
+         <sch1:systemId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:systemId>
+         <sch1:messageId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:messageId>
+         <sch1:correlationId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:correlationId>
+         <ns1:policy xsi:type="ns1:VzrPoliciesXT">
+            <ns1:policyId>${ID}</ns1:policyId>
+            <ns1:objectId>9726193</ns1:objectId>
+            <ns1:product>
+               <ns1:productId>8</ns1:productId>
+               <ns1:productCode>VZR-Базовый</ns1:productCode>
+               <ns1:name>Базовый</ns1:name>
+               <ns1:descr>ECONOM (Базовый)</ns1:descr>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>1</ns1:riskId>
+                     <ns1:riskCode>B19</ns1:riskCode>
+                     <ns1:name>Несчастный случай</ns1:name>
+                     <ns1:descr>В случае причинения вреда жизни или здоровью застрахованного лица мы произведем страховую выплату в размере 3 000 у.е. согласно валюте полиса.</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>2</ns1:riskId>
+                     <ns1:riskCode>B20</ns1:riskCode>
+                     <ns1:name>Причинение ущерба третьим лицам</ns1:name>
+                     <ns1:descr>Компенсация ущерба, который Вы можете нанести имуществу, жизни и здоровью других людей или юридических лиц в размере 30 000 у.е. согласно валюте полиса.</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>3</ns1:riskId>
+                     <ns1:riskCode>B21</ns1:riskCode>
+                     <ns1:name>Страхование багажа</ns1:name>
+                     <ns1:descr>В случае утраты или задержки багажа, мы произведем страховую выплату в размере 200 у.е. согласно валюте полиса за одно утраченное место.</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>4</ns1:riskId>
+                     <ns1:riskCode>B22</ns1:riskCode>
+                     <ns1:name>Страхование квартиры</ns1:name>
+                     <ns1:descr>Страхование Вашей квартиры и ответственности перед соседями на время Вашего отсутствия на сумму 500 000 рублей.</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>8</ns1:riskId>
+                     <ns1:riskCode>D15</ns1:riskCode>
+                     <ns1:name>Любительский спорт</ns1:name>
+                     <ns1:descr>американский футбол
+баскетбол
+бейсбол
+биатлон
+бобслей
+бокс
+большой тенис
+вейкборд
+велосипетдный спорт
+виндсерфинг
+волейбол
+вольная борьба
+восточные единоборства
+гандбол
+гимнастика
+гиревый спорт
+гонолыжный спорт
+гребля
+греко-римская борьба
+дайвинг
+дзюдо
+кайтинг
+капоэйра
+конный спорт
+конькобежный спорт
+охота
+парусный спорт
+пеший туризм (3-4 категории)
+поло
+рафтинг
+регби
+самбо
+серфинг
+синхронное плавание
+сноубординг
+сноукайтинг
+спортивные танцы
+тхэквондо
+фехтование
+фигурное катание
+футбол
+хоккей</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+            </ns1:product>
+            <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
+            <ns1:dateCreate>2019-07-25T00:00:00.000+03:00</ns1:dateCreate>
+            <ns1:dateStart>2019-07-26T00:00:00.000+03:00</ns1:dateStart>
+            <ns1:dateEnd>2019-07-26T00:00:00.000+03:00</ns1:dateEnd>
+            <ns1:discount>15.00</ns1:discount>
+            <ns1:previousPolicyNumber>null</ns1:previousPolicyNumber>
+            <ns1:currency>
+               <ns1:currencyId>2</ns1:currencyId>
+               <ns1:currencyCode>USD</ns1:currencyCode>
+               <ns1:name>Доллар США</ns1:name>
+            </ns1:currency>
+            <ns1:policyStatus>
+               <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
+               <ns1:name>Оплачен</ns1:name>
+            </ns1:policyStatus>
+            <ns1:paymentSchedule>
+               <ns1:payDate>2019-07-25+03:00</ns1:payDate>
+               <ns1:currency>
+                  <ns1:currencyId>1</ns1:currencyId>
+                  <ns1:currencyCode>RUR</ns1:currencyCode>
+                  <ns1:name>Российский рубль</ns1:name>
+               </ns1:currency>
+               <ns1:bill>
+                  <ns1:billId>2414831</ns1:billId>
+                  <ns1:billCode/>
+                  <ns1:billNumber/>
+                  <ns1:payDate>2019-07-25T00:00:00.000+03:00</ns1:payDate>
+                  <ns1:amount>929.00</ns1:amount>
+                  <ns1:paymentSystem>
+                     <ns1:paymentSystemId>1</ns1:paymentSystemId>
+                     <ns1:paymentSystemCode>ALFABNK</ns1:paymentSystemCode>
+                     <ns1:name>Alfa Bank</ns1:name>
+                     <ns1:descr>Alfa bank payment</ns1:descr>
+                  </ns1:paymentSystem>
+                  <ns1:paymentTransactionId>245085198329</ns1:paymentTransactionId>
+                  <ns1:paymentDate>2019-07-25T10:31:53.000+03:00</ns1:paymentDate>
+                  <ns1:isPaid>false</ns1:isPaid>
+               </ns1:bill>
+               <ns1:amount>929.00</ns1:amount>
+            </ns1:paymentSchedule>
+            <ns1:conditions>
+               <ns1:conditionId>2929379</ns1:conditionId>
+               <ns1:product>
+                  <ns1:productId>8</ns1:productId>
+               </ns1:product>
+               <ns1:name/>
+               <ns1:premium>929.00</ns1:premium>
+               <ns1:insuranceSum>40000.00</ns1:insuranceSum>
+               <ns1:beginDate>2019-07-26+03:00</ns1:beginDate>
+               <ns1:endDate>2019-07-26+03:00</ns1:endDate>
+               <ns1:duration>0</ns1:duration>
+            </ns1:conditions>
+            <ns1:conditions>
+               <ns1:conditionId>2929380</ns1:conditionId>
+               <ns1:product>
+                  <ns1:productId>8</ns1:productId>
+               </ns1:product>
+               <ns1:name/>
+               <ns1:premium>556.00</ns1:premium>
+               <ns1:insuranceSum>40000.00</ns1:insuranceSum>
+               <ns1:beginDate>2019-07-26+03:00</ns1:beginDate>
+               <ns1:endDate>2019-07-26+03:00</ns1:endDate>
+               <ns1:duration>0</ns1:duration>
+               <ns1:conditionProductRisks>
+                  <ns1:product>
+                     <ns1:productId>8</ns1:productId>
+                  </ns1:product>
+                  <ns1:risk>
+                     <ns1:riskId>3</ns1:riskId>
+                     <ns1:riskCode>B21</ns1:riskCode>
+                     <ns1:name>Страхование багажа</ns1:name>
+                     <ns1:descr>В случае утраты или задержки багажа, мы произведем страховую выплату в размере 200 у.е. согласно валюте полиса за одно утраченное место.</ns1:descr>
+                  </ns1:risk>
+               </ns1:conditionProductRisks>
+            </ns1:conditions>
+            <ns1:conditions>
+               <ns1:conditionId>2929381</ns1:conditionId>
+               <ns1:product>
+                  <ns1:productId>8</ns1:productId>
+               </ns1:product>
+               <ns1:name/>
+               <ns1:premium>18.00</ns1:premium>
+               <ns1:insuranceSum>40000.00</ns1:insuranceSum>
+               <ns1:beginDate>2019-07-26+03:00</ns1:beginDate>
+               <ns1:endDate>2019-07-26+03:00</ns1:endDate>
+               <ns1:duration>0</ns1:duration>
+               <ns1:conditionProductRisks>
+                  <ns1:product>
+                     <ns1:productId>8</ns1:productId>
+                  </ns1:product>
+                  <ns1:risk>
+                     <ns1:riskId>4</ns1:riskId>
+                     <ns1:riskCode>B22</ns1:riskCode>
+                     <ns1:name>Страхование квартиры</ns1:name>
+                     <ns1:descr>Страхование Вашей квартиры и ответственности перед соседями на время Вашего отсутствия на сумму 500 000 рублей.</ns1:descr>
+                  </ns1:risk>
+               </ns1:conditionProductRisks>
+            </ns1:conditions>
+            <ns1:conditions>
+               <ns1:conditionId>2929382</ns1:conditionId>
+               <ns1:product>
+                  <ns1:productId>8</ns1:productId>
+               </ns1:product>
+               <ns1:name/>
+               <ns1:premium>211.00</ns1:premium>
+               <ns1:insuranceSum>40000.00</ns1:insuranceSum>
+               <ns1:beginDate>2019-07-26+03:00</ns1:beginDate>
+               <ns1:endDate>2019-07-26+03:00</ns1:endDate>
+               <ns1:duration>0</ns1:duration>
+               <ns1:conditionProductRisks>
+                  <ns1:product>
+                     <ns1:productId>8</ns1:productId>
+                  </ns1:product>
+                  <ns1:risk>
+                     <ns1:riskId>1</ns1:riskId>
+                     <ns1:riskCode>B19</ns1:riskCode>
+                     <ns1:name>Несчастный случай</ns1:name>
+                     <ns1:descr>В случае причинения вреда жизни или здоровью застрахованного лица мы произведем страховую выплату в размере 3 000 у.е. согласно валюте полиса.</ns1:descr>
+                  </ns1:risk>
+               </ns1:conditionProductRisks>
+            </ns1:conditions>
+            <ns1:conditions>
+               <ns1:conditionId>2929383</ns1:conditionId>
+               <ns1:product>
+                  <ns1:productId>8</ns1:productId>
+               </ns1:product>
+               <ns1:name/>
+               <ns1:premium>12.00</ns1:premium>
+               <ns1:insuranceSum>40000.00</ns1:insuranceSum>
+               <ns1:beginDate>2019-07-26+03:00</ns1:beginDate>
+               <ns1:endDate>2019-07-26+03:00</ns1:endDate>
+               <ns1:duration>0</ns1:duration>
+               <ns1:conditionProductRisks>
+                  <ns1:product>
+                     <ns1:productId>8</ns1:productId>
+                  </ns1:product>
+                  <ns1:risk>
+                     <ns1:riskId>2</ns1:riskId>
+                     <ns1:riskCode>B20</ns1:riskCode>
+                     <ns1:name>Причинение ущерба третьим лицам</ns1:name>
+                     <ns1:descr>Компенсация ущерба, который Вы можете нанести имуществу, жизни и здоровью других людей или юридических лиц в размере 30 000 у.е. согласно валюте полиса.</ns1:descr>
+                  </ns1:risk>
+               </ns1:conditionProductRisks>
+            </ns1:conditions>
+            <ns1:policyObjects>
+               <ns1:object xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>14457604</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                  </ns1:objectType>
+                  <ns1:name>ALIMBAEV GASYRBEK</ns1:name>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                  </ns1:contractorType>
+                  <ns1:isResident>true</ns1:isResident>
+                  <ns1:firstName>GASYRBEK</ns1:firstName>
+                  <ns1:surname>ALIMBAEV</ns1:surname>
+                  <ns1:secondName/>
+                  <ns1:birthDate>1986-01-26+03:00</ns1:birthDate>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName>ALIMBAEV GASYRBEK</ns1:fullName>
+                  <ns1:latName/>
+               </ns1:object>
+               <ns1:objectType>
+                  <ns1:objectTypeId>2</ns1:objectTypeId>
+               </ns1:objectType>
+               <ns1:product>
+                  <ns1:productId>8</ns1:productId>
+               </ns1:product>
+               <ns1:orderNo>1</ns1:orderNo>
+               <ns1:territoryId/>
+               <ns1:remark>MedAssist International  по телефонному номеру: +7 495 956 0907;
+Дополнительные контакты (ТОЛЬКО для пересылки документов):
+эл. почта: 24h@mldc-nt.ru; What’s App/Viber: +7 916 760 0992</ns1:remark>
+            </ns1:policyObjects>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>14457603</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>Алимбаев Гасырбек Суйентаевич</ns1:name>
+                  <ns1:descr/>
+                  <ns1:docs>
+                     <ns1:objectDocType>
+                        <ns1:objectDocTypeId>12</ns1:objectDocTypeId>
+                        <ns1:objectDocTypeCode>PASSPORT_RF</ns1:objectDocTypeCode>
+                        <ns1:name>Паспорт гражданина РФ</ns1:name>
+                     </ns1:objectDocType>
+                     <ns1:series>A</ns1:series>
+                     <ns1:number>1</ns1:number>
+                     <ns1:dateIssue>2000-01-01+03:00</ns1:dateIssue>
+                     <ns1:whom/>
+                     <ns1:subdivisionCode/>
+                     <ns1:isMain>false</ns1:isMain>
+                  </ns1:docs>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>true</ns1:isResident>
+                  <ns1:contacts>
+                     <ns1:contactId>11337203282602</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>2</ns1:contactTypeId>
+                        <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                        <ns1:name>Email</ns1:name>
+                        <ns1:descr>email</ns1:descr>
+                     </ns1:contactType>
+                     <ns1:contact>Norbaeva@vsk.ru</ns1:contact>
+                     <ns1:contactPerson>Алимбаев Гасырбек Суйентаевич</ns1:contactPerson>
+                  </ns1:contacts>
+                  <ns1:contacts>
+                     <ns1:contactId>11337203282601</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>1</ns1:contactTypeId>
+                        <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                     </ns1:contactType>
+                     <ns1:contact>79039532332</ns1:contact>
+                     <ns1:contactPerson>Алимбаев Гасырбек Суйентаевич</ns1:contactPerson>
+                  </ns1:contacts>
+                  <ns1:addresses>
+                     <ns1:country>
+                        <ns1:countryId>498</ns1:countryId>
+                        <ns1:countryCode>Россия</ns1:countryCode>
+                        <ns1:name>Россия</ns1:name>
+                     </ns1:country>
+                     <ns1:addressType>
+                        <ns1:addressTypeId>1</ns1:addressTypeId>
+                        <ns1:addressTypeCode>REGISTRATION</ns1:addressTypeCode>
+                        <ns1:name>Адрес по месту регистрации</ns1:name>
+                     </ns1:addressType>
+                     <ns1:region/>
+                     <ns1:district/>
+                     <ns1:city>Томск г</ns1:city>
+                     <ns1:locality/>
+                     <ns1:street>Томская обл</ns1:street>
+                     <ns1:house>Елизаровых Улица</ns1:house>
+                     <ns1:building/>
+                     <ns1:flat/>
+                     <ns1:okato/>
+                     <ns1:addressStr/>
+                     <ns1:kladr/>
+                  </ns1:addresses>
+                  <ns1:firstName>Гасырбек</ns1:firstName>
+                  <ns1:surname>Алимбаев</ns1:surname>
+                  <ns1:secondName>Суйентаевич</ns1:secondName>
+                  <ns1:birthDate>1986-01-26+03:00</ns1:birthDate>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName>Алимбаев Гасырбек Суйентаевич</ns1:fullName>
+                  <ns1:latName/>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>1</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURANT</ns1:participantTypeCode>
+                  <ns1:name>Страхователь</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+               <ns1:dateStart>2019-07-26+03:00</ns1:dateStart>
+               <ns1:dateEnd>2019-07-26+03:00</ns1:dateEnd>
+            </ns1:participant>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>14457604</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>ALIMBAEV GASYRBEK</ns1:name>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>true</ns1:isResident>
+                  <ns1:firstName>GASYRBEK</ns1:firstName>
+                  <ns1:surname>ALIMBAEV</ns1:surname>
+                  <ns1:secondName/>
+                  <ns1:birthDate>1986-01-26+03:00</ns1:birthDate>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName>ALIMBAEV GASYRBEK</ns1:fullName>
+                  <ns1:latName/>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>3</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURED</ns1:participantTypeCode>
+                  <ns1:name>Застрахованное лицо</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+               <ns1:dateStart>2019-07-26+03:00</ns1:dateStart>
+               <ns1:dateEnd>2019-07-26+03:00</ns1:dateEnd>
+            </ns1:participant>
+            <ns1:parentPolicyNumber>null</ns1:parentPolicyNumber>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>1</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>DEAL_REGION</ns1:classifierTypeCode>
+                  <ns1:name>Регион сделки</ns1:name>
+                  <ns1:descr>Регион, где произошла сделка</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>70000001000</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>2</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>PARTNER</ns1:classifierTypeCode>
+                  <ns1:name>Партнер</ns1:name>
+                  <ns1:descr>Идентификатор партнера, который создал полис</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>6656</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>7</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>DATA_SOURCE</ns1:classifierTypeCode>
+                  <ns1:name>Источник данных</ns1:name>
+                  <ns1:descr>Источник данных</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>Digital</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>10</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CONTRACT_RESPONSIBLE_ID</ns1:classifierTypeCode>
+                  <ns1:name>ID пользователя ВСК, ответственного за договор</ns1:name>
+                  <ns1:descr>ID пользователя ВСК, ответственного за договор</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>0027700020</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>11</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CONTRACT_DIVISION_ID</ns1:classifierTypeCode>
+                  <ns1:name>ID подразделения ВСК, ответственного за договор</ns1:name>
+                  <ns1:descr>ID подразделения ВСК, ответственного за договор</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>18.00.02</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>12</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CHANNEL_TYPE_ID</ns1:classifierTypeCode>
+                  <ns1:name>Канал продаж</ns1:name>
+                  <ns1:descr>Канал продаж</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>416</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>21</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>DATE_CREATE</ns1:classifierTypeCode>
+                  <ns1:name>дата создания записи в таблице</ns1:name>
+                  <ns1:descr>дата создания записи в таблице</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>2018-12-20T22:00:27+03:00</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>22</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>DATE_UPDATE</ns1:classifierTypeCode>
+                  <ns1:name>дата обновления записи в таблице</ns1:name>
+                  <ns1:descr>дата обновления записи в таблице</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>2019-04-01T17:01:43+03:00</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:tourists0-2>0</ns1:tourists0-2>
+            <ns1:tourists3-64>1</ns1:tourists3-64>
+            <ns1:tourists65-70>0</ns1:tourists65-70>
+            <ns1:tourists71-75>0</ns1:tourists71-75>
+            <ns1:tourists76-80>0</ns1:tourists76-80>
+            <ns1:tourists80>0</ns1:tourists80>
+            <ns1:multi>false</ns1:multi>
+            <ns1:vzrPolicyLocations>
+               <ns1:location>
+                  <ns1:locationId>401</ns1:locationId>
+                  <ns1:code>Таиланд</ns1:code>
+                  <ns1:locationType>
+                     <ns1:locationTypeId>2</ns1:locationTypeId>
+                  </ns1:locationType>
+                  <ns1:currency>
+                     <ns1:currencyId>2</ns1:currencyId>
+                  </ns1:currency>
+                  <ns1:parentLocation>
+                     <ns1:locationId>74</ns1:locationId>
+                  </ns1:parentLocation>
+                  <ns1:name>Таиланд</ns1:name>
+                  <ns1:factor>1.00</ns1:factor>
+                  <ns1:isPopular>true</ns1:isPopular>
+               </ns1:location>
+            </ns1:vzrPolicyLocations>
+         </ns1:policy>
+      </ns1:getPolicyCCResponse>
+   </soap:Body>
+</soap:Envelope>

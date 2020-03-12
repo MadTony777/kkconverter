@@ -1,0 +1,285 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns1:getPolicyCCResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sch1="http://sl/common/schema" xmlns:ns1="http://sl/ignite/schema">
+         <sch1:systemId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:systemId>
+         <sch1:messageId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:messageId>
+         <sch1:correlationId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:correlationId>
+         <ns1:policy>
+            <ns1:policyId>${ID}</ns1:policyId>
+            <ns1:objectId>-1</ns1:objectId>
+            <ns1:product>
+               <ns1:productId>11001</ns1:productId>
+               <ns1:productCode>CIVIL_LIABILITY_DRONES</ns1:productCode>
+               <ns1:name>Обязательное страхование ГО владельцев и эксплуатантов БВС</ns1:name>
+               <ns1:descr>страхования ответственности</ns1:descr>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>10</ns1:riskId>
+                     <ns1:riskCode>CIVIL_LIABILITY</ns1:riskCode>
+                     <ns1:name>Гражданская ответственность</ns1:name>
+                     <ns1:descr>Гражданская ответственность</ns1:descr>
+                     <ns1:fullDescr>Гражданская ответственность</ns1:fullDescr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+            </ns1:product>
+            <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
+            <ns1:dateCreate>2020-01-28T00:00:00.000+03:00</ns1:dateCreate>
+            <ns1:dateStart>2020-01-28T00:00:00.000+03:00</ns1:dateStart>
+            <ns1:dateEnd>2021-01-27T00:00:00.000+03:00</ns1:dateEnd>
+            <ns1:policyStatus>
+               <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
+               <ns1:name>Оплачен</ns1:name>
+            </ns1:policyStatus>
+            <ns1:policyObjects>
+               <ns1:object xsi:type="ns1:DevicesXT">
+                  <ns1:objectId>16113426</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>6</ns1:objectTypeId>
+                  </ns1:objectType>
+                  <ns1:name>dron</ns1:name>
+                  <ns1:deviceType>
+                     <ns1:deviceTypeId>26</ns1:deviceTypeId>
+                     <ns1:deviceTypeCode>DRONE</ns1:deviceTypeCode>
+                     <ns1:name>БВС</ns1:name>
+                     <ns1:descr>Беспилотное воздушное судно (БПЛА)</ns1:descr>
+                  </ns1:deviceType>
+                  <ns1:tradeMark>dronGoogle</ns1:tradeMark>
+                  <ns1:model>dronTab 2</ns1:model>
+                  <ns1:serial>serial-htdronosoq2134</ns1:serial>
+                  <ns1:licenseKey>registration -ei124124</ns1:licenseKey>
+                  <ns1:activatedDate>2017-10-01+03:00</ns1:activatedDate>
+               </ns1:object>
+               <ns1:objectType>
+                  <ns1:objectTypeId>6</ns1:objectTypeId>
+                  <ns1:code>DEVICE</ns1:code>
+                  <ns1:name>Устройство</ns1:name>
+                  <ns1:descr>Устройство</ns1:descr>
+               </ns1:objectType>
+               <ns1:product>
+                  <ns1:productId>11001</ns1:productId>
+               </ns1:product>
+               <ns1:orderNo>1</ns1:orderNo>
+               <ns1:territoryId/>
+               <ns1:remark/>
+               <ns1:conditions>
+                  <ns1:conditionId>3846559</ns1:conditionId>
+                  <ns1:product>
+                     <ns1:productId>11001</ns1:productId>
+                  </ns1:product>
+                  <ns1:name/>
+                  <ns1:premium>2000</ns1:premium>
+                  <ns1:insuranceSum>30000</ns1:insuranceSum>
+                  <ns1:beginDate>2020-01-28+03:00</ns1:beginDate>
+                  <ns1:endDate>2021-01-27+03:00</ns1:endDate>
+                  <ns1:duration>12</ns1:duration>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>11001</ns1:productId>
+                        <ns1:productCode>CIVIL_LIABILITY_DRONES</ns1:productCode>
+                        <ns1:name>Обязательное страхование ГО владельцев и эксплуатантов БВС</ns1:name>
+                        <ns1:descr>страхования ответственности</ns1:descr>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>10</ns1:riskId>
+                        <ns1:riskCode>CIVIL_LIABILITY</ns1:riskCode>
+                        <ns1:name>Гражданская ответственность</ns1:name>
+                        <ns1:descr>Гражданская ответственность</ns1:descr>
+                        <ns1:fullDescr>Гражданская ответственность</ns1:fullDescr>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+               </ns1:conditions>
+            </ns1:policyObjects>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>16113424</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>Иванов Иван Иванович</ns1:name>
+                  <ns1:docs>
+                     <ns1:objectDocType>
+                        <ns1:objectDocTypeId>12</ns1:objectDocTypeId>
+                        <ns1:objectDocTypeCode>PASSPORT_RF</ns1:objectDocTypeCode>
+                        <ns1:name>Паспорт гражданина РФ</ns1:name>
+                     </ns1:objectDocType>
+                     <ns1:series>4510</ns1:series>
+                     <ns1:number>506033</ns1:number>
+                     <ns1:dateIssue>2010-01-21+03:00</ns1:dateIssue>
+                     <ns1:whom/>
+                     <ns1:subdivisionCode/>
+                     <ns1:isMain>false</ns1:isMain>
+                  </ns1:docs>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>false</ns1:isResident>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204672109</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>1</ns1:contactTypeId>
+                        <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                     </ns1:contactType>
+                     <ns1:contact>79061111111</ns1:contact>
+                     <ns1:contactPerson/>
+                  </ns1:contacts>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204672108</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>2</ns1:contactTypeId>
+                        <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                        <ns1:name>Email</ns1:name>
+                        <ns1:descr>email</ns1:descr>
+                     </ns1:contactType>
+                     <ns1:contact>manukyan@vsk.ru</ns1:contact>
+                     <ns1:contactPerson/>
+                  </ns1:contacts>
+                  <ns1:firstName>Петр</ns1:firstName>
+                  <ns1:surname>Петров</ns1:surname>
+                  <ns1:secondName>Петрович</ns1:secondName>
+                  <ns1:birthDate>1988-05-12+04:00</ns1:birthDate>
+                  <ns1:gender>1</ns1:gender>
+                  <ns1:fullName>Петров Петр Петрович</ns1:fullName>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>1</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURANT</ns1:participantTypeCode>
+                  <ns1:name>Страхователь</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+            </ns1:participant>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>16113425</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>5</ns1:objectTypeId>
+                     <ns1:code>DRIVER</ns1:code>
+                     <ns1:name>Водитель</ns1:name>
+                     <ns1:descr>Объект - водитель</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>Иванов Иван Иванович</ns1:name>
+                  <ns1:docs>
+                     <ns1:objectDocType>
+                        <ns1:objectDocTypeId>12</ns1:objectDocTypeId>
+                        <ns1:objectDocTypeCode>PASSPORT_RF</ns1:objectDocTypeCode>
+                        <ns1:name>Паспорт гражданина РФ</ns1:name>
+                     </ns1:objectDocType>
+                     <ns1:series>4510</ns1:series>
+                     <ns1:number>506033</ns1:number>
+                     <ns1:dateIssue>2010-01-21+03:00</ns1:dateIssue>
+                     <ns1:whom/>
+                     <ns1:subdivisionCode/>
+                     <ns1:isMain>false</ns1:isMain>
+                  </ns1:docs>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>false</ns1:isResident>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204672111</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>1</ns1:contactTypeId>
+                        <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                     </ns1:contactType>
+                     <ns1:contact>79061111111</ns1:contact>
+                     <ns1:contactPerson/>
+                  </ns1:contacts>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204672110</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>2</ns1:contactTypeId>
+                        <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                        <ns1:name>Email</ns1:name>
+                        <ns1:descr>email</ns1:descr>
+                     </ns1:contactType>
+                     <ns1:contact>manukyan@vsk.ru</ns1:contact>
+                     <ns1:contactPerson/>
+                  </ns1:contacts>
+                  <ns1:firstName>Иван</ns1:firstName>
+                  <ns1:surname>Иванов</ns1:surname>
+                  <ns1:secondName>Иванович</ns1:secondName>
+                  <ns1:birthDate>1989-12-20+03:00</ns1:birthDate>
+                  <ns1:gender>1</ns1:gender>
+                  <ns1:fullName>Иванов Иван Иванович</ns1:fullName>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>4</ns1:participantTypeId>
+                  <ns1:participantTypeCode>DRIVER</ns1:participantTypeCode>
+                  <ns1:name>Водитель</ns1:name>
+               </ns1:participantType>
+            </ns1:participant>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>2</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>PARTNER</ns1:classifierTypeCode>
+                  <ns1:name>Партнер</ns1:name>
+                  <ns1:descr>Идентификатор партнера, который создал полис</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue/>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>8</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>AGENT_CONTRACT_NUMBER</ns1:classifierTypeCode>
+                  <ns1:name>Номер агентского договора</ns1:name>
+                  <ns1:descr>Номер агентского договора</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>14004440001</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>23</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>PARTNER_CODE</ns1:classifierTypeCode>
+                  <ns1:name>Код партнера</ns1:name>
+                  <ns1:descr>Код партнера</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>AIRVIDEO</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>29</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>IS_CERTIFIED_DRIVER</ns1:classifierTypeCode>
+                  <ns1:name>Наличие сертификации оператора/внешнего пилота</ns1:name>
+                  <ns1:descr>Булевый тип. Наличие сертификации оператора/внешнего пилота</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>false</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>5</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>KV_AGENT</ns1:classifierTypeCode>
+                  <ns1:name>Комиссионное вознаграждение агента</ns1:name>
+                  <ns1:descr>Комиссионное вознаграждение агента</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>40</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>28</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>WITH_PARACHUTE</ns1:classifierTypeCode>
+                  <ns1:name>Наличие системы парашютирования</ns1:name>
+                  <ns1:descr>Булевый тип. Наличие системы парашютирования</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>false</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>12</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CHANNEL_TYPE_ID</ns1:classifierTypeCode>
+                  <ns1:name>Канал продаж</ns1:name>
+                  <ns1:descr>Канал продаж</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>410</ns1:classifierValue>
+            </ns1:classifiers>
+         </ns1:policy>
+      </ns1:getPolicyCCResponse>
+   </soap:Body>
+</soap:Envelope>

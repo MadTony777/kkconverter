@@ -1,0 +1,305 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns1:getPolicyCCResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sch1="http://sl/common/schema" xmlns:ns1="http://sl/ignite/schema">
+         <sch1:systemId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:systemId>
+         <sch1:messageId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:messageId>
+         <sch1:correlationId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:correlationId>
+         <ns1:policy>
+            <ns1:policyId>${ID}</ns1:policyId>
+            <ns1:objectId>15835392</ns1:objectId>
+            <ns1:product>
+               <ns1:productId>20001</ns1:productId>
+               <ns1:productCode>NS-athlete</ns1:productCode>
+               <ns1:name>Спортсмен</ns1:name>
+               <ns1:descr>В страховку включены риски, связанные с занятием любительским или профессиональным спортом по всему миру</ns1:descr>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>20001</ns1:riskId>
+                     <ns1:riskCode>Смерть</ns1:riskCode>
+                     <ns1:name>Смерть</ns1:name>
+                     <ns1:descr>Смерть в результате несчастного случая</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>20002</ns1:riskId>
+                     <ns1:riskCode>Инвалидность</ns1:riskCode>
+                     <ns1:name>Инвалидность</ns1:name>
+                     <ns1:descr>Инвалидность в результате несчастного случая</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>20003</ns1:riskId>
+                     <ns1:riskCode>Временная нетрудоспособность (травма)</ns1:riskCode>
+                     <ns1:name>Временная нетрудоспособность (травма)</ns1:name>
+                     <ns1:descr>Временная нетрудоспособность / Травма в результате несчастного случая</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+               <ns1:productRisks>
+                  <ns1:risk>
+                     <ns1:riskId>20004</ns1:riskId>
+                     <ns1:riskCode>Экстренная госпитализация</ns1:riskCode>
+                     <ns1:name>Экстренная госпитализация</ns1:name>
+                     <ns1:descr>Экстренная госпитализация по неотложным показаниям</ns1:descr>
+                  </ns1:risk>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
+               </ns1:productRisks>
+            </ns1:product>
+            <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
+            <ns1:dateCreate>2019-09-24T00:00:00.000+03:00</ns1:dateCreate>
+            <ns1:dateStart>2019-10-05T00:00:00.000+03:00</ns1:dateStart>
+            <ns1:dateEnd>2020-10-05T00:00:00.000+03:00</ns1:dateEnd>
+            <ns1:discount>0.00</ns1:discount>
+            <ns1:policyStatus>
+               <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
+               <ns1:name>Оплачен</ns1:name>
+            </ns1:policyStatus>
+            <ns1:paymentSchedule>
+               <ns1:payDate>2019-09-24+03:00</ns1:payDate>
+               <ns1:currency>
+                  <ns1:currencyId>1</ns1:currencyId>
+                  <ns1:currencyCode>RUR</ns1:currencyCode>
+                  <ns1:name>Российский рубль</ns1:name>
+               </ns1:currency>
+               <ns1:bill>
+                  <ns1:billId>2886783</ns1:billId>
+                  <ns1:billCode/>
+                  <ns1:billNumber/>
+                  <ns1:payDate>2019-09-24T00:00:00.000+03:00</ns1:payDate>
+                  <ns1:amount>4914.00</ns1:amount>
+                  <ns1:paymentSystem>
+                     <ns1:paymentSystemId>1</ns1:paymentSystemId>
+                     <ns1:paymentSystemCode>ALFABNK</ns1:paymentSystemCode>
+                     <ns1:name>Alfa Bank</ns1:name>
+                     <ns1:descr>Alfa bank payment</ns1:descr>
+                  </ns1:paymentSystem>
+                  <ns1:paymentTransactionId>39baf0b2-602a-7774-9c7b-0b5200003a68</ns1:paymentTransactionId>
+                  <ns1:paymentDate>2019-09-24T09:02:05.000+03:00</ns1:paymentDate>
+                  <ns1:isPaid>false</ns1:isPaid>
+               </ns1:bill>
+               <ns1:amount>4914.00</ns1:amount>
+            </ns1:paymentSchedule>
+            <ns1:policyObjects>
+               <ns1:object xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>15835398</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                  </ns1:objectType>
+                  <ns1:name/>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                  </ns1:contractorType>
+                  <ns1:isResident>true</ns1:isResident>
+                  <ns1:firstName/>
+                  <ns1:surname/>
+                  <ns1:secondName/>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName/>
+                  <ns1:latName/>
+               </ns1:object>
+               <ns1:objectType>
+                  <ns1:objectTypeId>2</ns1:objectTypeId>
+               </ns1:objectType>
+               <ns1:product>
+                  <ns1:productId>20001</ns1:productId>
+               </ns1:product>
+               <ns1:orderNo>1</ns1:orderNo>
+               <ns1:territoryId/>
+               <ns1:remark/>
+               <ns1:conditions>
+                  <ns1:conditionId>3689946</ns1:conditionId>
+                  <ns1:product>
+                     <ns1:productId>20001</ns1:productId>
+                  </ns1:product>
+                  <ns1:name/>
+                  <ns1:premium>4914.00</ns1:premium>
+                  <ns1:insuranceSum>100000.00</ns1:insuranceSum>
+                  <ns1:beginDate>2019-10-05+03:00</ns1:beginDate>
+                  <ns1:endDate>2020-10-05+03:00</ns1:endDate>
+                  <ns1:duration>12</ns1:duration>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>20001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>20001</ns1:riskId>
+                        <ns1:riskCode>Смерть</ns1:riskCode>
+                        <ns1:name>Смерть</ns1:name>
+                        <ns1:descr>Смерть в результате несчастного случая</ns1:descr>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>20001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>20002</ns1:riskId>
+                        <ns1:riskCode>Инвалидность</ns1:riskCode>
+                        <ns1:name>Инвалидность</ns1:name>
+                        <ns1:descr>Инвалидность в результате несчастного случая</ns1:descr>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>20001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>20003</ns1:riskId>
+                        <ns1:riskCode>Временная нетрудоспособность (травма)</ns1:riskCode>
+                        <ns1:name>Временная нетрудоспособность (травма)</ns1:name>
+                        <ns1:descr>Временная нетрудоспособность / Травма в результате несчастного случая</ns1:descr>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:conditionProductRisks>
+                     <ns1:product>
+                        <ns1:productId>20001</ns1:productId>
+                     </ns1:product>
+                     <ns1:risk>
+                        <ns1:riskId>20004</ns1:riskId>
+                        <ns1:riskCode>Экстренная госпитализация</ns1:riskCode>
+                        <ns1:name>Экстренная госпитализация</ns1:name>
+                        <ns1:descr>Экстренная госпитализация по неотложным показаниям</ns1:descr>
+                     </ns1:risk>
+                  </ns1:conditionProductRisks>
+                  <ns1:category>
+                     <ns1:categoryId>1</ns1:categoryId>
+                     <ns1:code>insurant</ns1:code>
+                     <ns1:name>Страхователь</ns1:name>
+                  </ns1:category>
+                  <ns1:productCategorySport/>
+               </ns1:conditions>
+            </ns1:policyObjects>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>15835398</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name/>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>true</ns1:isResident>
+                  <ns1:firstName/>
+                  <ns1:surname/>
+                  <ns1:secondName/>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName/>
+                  <ns1:latName/>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>3</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURED</ns1:participantTypeCode>
+                  <ns1:name>Застрахованное лицо</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+               <ns1:dateStart>2019-10-05+03:00</ns1:dateStart>
+               <ns1:dateEnd>2020-10-05+03:00</ns1:dateEnd>
+            </ns1:participant>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>15835399</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>2</ns1:objectTypeId>
+                     <ns1:code>CONTRACTOR</ns1:code>
+                     <ns1:name>Contractor</ns1:name>
+                     <ns1:descr>contractor</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>Пывапывапыва Пывапывап Ывапывапы</ns1:name>
+                  <ns1:descr/>
+                  <ns1:docs>
+                     <ns1:objectDocType>
+                        <ns1:objectDocTypeId>12</ns1:objectDocTypeId>
+                        <ns1:objectDocTypeCode>PASSPORT_RF</ns1:objectDocTypeCode>
+                        <ns1:name>Паспорт гражданина РФ</ns1:name>
+                     </ns1:objectDocType>
+                     <ns1:series>5634</ns1:series>
+                     <ns1:number>534534</ns1:number>
+                     <ns1:dateIssue>2011-11-11+04:00</ns1:dateIssue>
+                     <ns1:whom/>
+                     <ns1:subdivisionCode/>
+                     <ns1:isMain>false</ns1:isMain>
+                  </ns1:docs>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>true</ns1:isResident>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204431711</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>1</ns1:contactTypeId>
+                        <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                     </ns1:contactType>
+                     <ns1:contact>79239232244</ns1:contact>
+                     <ns1:contactPerson>Пывапывапыва Пывапывап Ывапывапы</ns1:contactPerson>
+                  </ns1:contacts>
+                  <ns1:contacts>
+                     <ns1:contactId>11337204431712</ns1:contactId>
+                     <ns1:contactType>
+                        <ns1:contactTypeId>2</ns1:contactTypeId>
+                        <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                        <ns1:name>Email</ns1:name>
+                        <ns1:descr>email</ns1:descr>
+                     </ns1:contactType>
+                     <ns1:contact>norbaeva@vsk.ru</ns1:contact>
+                     <ns1:contactPerson>Пывапывапыва Пывапывап Ывапывапы</ns1:contactPerson>
+                  </ns1:contacts>
+                  <ns1:addresses>
+                     <ns1:country>
+                        <ns1:countryId>498</ns1:countryId>
+                        <ns1:countryCode>Россия</ns1:countryCode>
+                        <ns1:name>Россия</ns1:name>
+                     </ns1:country>
+                     <ns1:addressType>
+                        <ns1:addressTypeId>1</ns1:addressTypeId>
+                        <ns1:addressTypeCode>REGISTRATION</ns1:addressTypeCode>
+                        <ns1:name>Адрес по месту регистрации</ns1:name>
+                     </ns1:addressType>
+                     <ns1:region>Новосибирская</ns1:region>
+                     <ns1:district/>
+                     <ns1:city>Новосибирск г, Новосибирская обл</ns1:city>
+                     <ns1:locality/>
+                     <ns1:street>1905 года Улица</ns1:street>
+                     <ns1:house>44</ns1:house>
+                     <ns1:building/>
+                     <ns1:flat/>
+                     <ns1:okato/>
+                     <ns1:addressStr/>
+                     <ns1:kladr>540000010000002</ns1:kladr>
+                  </ns1:addresses>
+                  <ns1:firstName>Пывапывап</ns1:firstName>
+                  <ns1:surname>Пывапывапыва</ns1:surname>
+                  <ns1:secondName>Ывапывапы</ns1:secondName>
+                  <ns1:birthDate>1984-07-25+04:00</ns1:birthDate>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName>Пывапывапыва Пывапывап Ывапывапы</ns1:fullName>
+                  <ns1:latName/>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>1</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURANT</ns1:participantTypeCode>
+                  <ns1:name>Страхователь</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+               <ns1:dateStart>2019-10-05+03:00</ns1:dateStart>
+               <ns1:dateEnd>2020-10-05+03:00</ns1:dateEnd>
+            </ns1:participant>
+         </ns1:policy>
+      </ns1:getPolicyCCResponse>
+   </soap:Body>
+</soap:Envelope>
