@@ -1,113 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c7bcb4-c2fa-4fbd-b799-1a4d7255d18b" name="Default Changelist" comment="NotificationFIX" />
+    <list default="true" id="574a3320-24c5-4c9a-8ea3-49e77c972441" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <option name="groupModules" value="false" />
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CC - AdInsure" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CC - AdInsure" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CC - AdInsure" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CC - AdInsure" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CC - AdInsure" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="CC - AdInsure" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\autotest" />
-        <option value="C:\autotest\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1TmoLEt7oR3M7jr9p3Al2GRPjp1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1clZQksUsXH0oGVIEwO7TRGfYZI" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Other" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="DB" />
-      <recent name="IntegrationAutotest" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\autotest\src\test\java\DB\products" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\autotest\src\test\java\Other" />
+      <recent name="C:\MavenProjects\kkconverter\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,156 +43,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KKadinsure.KKadinsure_1">
-    <configuration name="KKadinsure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CC_-_AdInsure.test" />
+  <component name="RunManager" selected="JUnit.UnitTests">
+    <configuration name="UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kkconverter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KKconverter.*" />
+          <option name="PATTERN" value="kkconverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="KKconverter" />
-      <option name="MAIN_CLASS_NAME" value="KKconverter.KKadinsure" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="kkconverter" />
+      <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KKadinsure.KKadinsure_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CC_-_AdInsure.test" />
+    <configuration name="UnitTests.KKadinsure_110001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kkconverter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KKconverter.*" />
+          <option name="PATTERN" value="kkconverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="KKconverter" />
-      <option name="MAIN_CLASS_NAME" value="KKconverter.KKadinsure" />
-      <option name="METHOD_NAME" value="KKadinsure_1" />
+      <option name="PACKAGE_NAME" value="kkconverter" />
+      <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
+      <option name="METHOD_NAME" value="KKadinsure_110001" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KKadinsure.KKadinsure_110002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CC_-_AdInsure.test" />
+    <configuration name="UnitTests.KKadinsure_140002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kkconverter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KKconverter.*" />
+          <option name="PATTERN" value="kkconverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="KKconverter" />
-      <option name="MAIN_CLASS_NAME" value="KKconverter.KKadinsure" />
-      <option name="METHOD_NAME" value="KKadinsure_110002" />
+      <option name="PACKAGE_NAME" value="kkconverter" />
+      <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
+      <option name="METHOD_NAME" value="KKadinsure_140002" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KKadinsure.KKadinsure_140001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CC_-_AdInsure.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KKconverter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="KKconverter" />
-      <option name="MAIN_CLASS_NAME" value="KKconverter.KKadinsure" />
-      <option name="METHOD_NAME" value="KKadinsure_140001" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.KKM_DB2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CC_-_AdInsure.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KKM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="KKM" />
-      <option name="MAIN_CLASS_NAME" value="KKM.Tests" />
-      <option name="METHOD_NAME" value="KKM_DB2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="CC_-_AdInsure.test" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="AUTOTESTS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="AUTOTESTS" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KKadinsure.KKadinsure_1" />
-        <item itemvalue="JUnit.KKadinsure" />
-        <item itemvalue="JUnit.Tests.KKM_DB2" />
-        <item itemvalue="JUnit.KKadinsure.KKadinsure_110002" />
-        <item itemvalue="JUnit.KKadinsure.KKadinsure_140001" />
+        <item itemvalue="JUnit.UnitTests" />
+        <item itemvalue="JUnit.UnitTests.KKadinsure_140002" />
+        <item itemvalue="JUnit.UnitTests.KKadinsure_110001" />
       </list>
     </recent_temporary>
   </component>
@@ -280,48 +104,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="55c7bcb4-c2fa-4fbd-b799-1a4d7255d18b" name="Default Changelist" comment="" />
-      <created>1574074573679</created>
+      <changelist id="574a3320-24c5-4c9a-8ea3-49e77c972441" name="Default Changelist" comment="" />
+      <created>1591105126038</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574074573679</updated>
+      <updated>1591105126038</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="P1" />
-    <MESSAGE value="NotificationFIX" />
-    <option name="LAST_COMMIT_MESSAGE" value="NotificationFIX" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/KKM/Process.java</url>
-          <line>183</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="String valueTrace = record.value()" language="JAVA" />
-        <watch expression="result = result1.replace(&quot;[&quot;, &quot;&quot;).replace(&quot;]&quot;, &quot;&quot;)" language="JAVA" />
-        <watch expression="assertThat(steps, containsString(&quot;60&quot;))" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

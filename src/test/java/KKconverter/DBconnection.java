@@ -1,4 +1,4 @@
-package KKconverter;
+package kkconverter;
 
 
 import java.sql.Connection;
@@ -7,22 +7,22 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 
-class DBconnection extends BaseClassUtils {
+class DBconnection extends BaseClass {
     static String dbStepStatus(String policyId, String environment) {
         String result="";
         String dB="";
         switch (environment){
-            case "Stage": dB = "ADTEST1";
+            case "stage": dB = "ADTEST1";
                 break;
-            case "Test": dB = "ADTEST2";
+            case "test": dB = "ADTEST2";
                 break;
         }
         try{
             //step1 load the driver class
-            Class.forName(DriverForBD);
+            Class.forName(driverForBD);
             //step2 create  the connection object
             Connection con = DriverManager.getConnection(
-                    BDurl + dB,BDlogin,BDpassword);
+                    bDurl + dB, bDlogin, bDpassword);
             //step3 create the statement object
             Statement stmt = con.createStatement();
             //step4 execute query

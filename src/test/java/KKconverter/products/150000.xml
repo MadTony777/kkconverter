@@ -1,0 +1,488 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns1:getPolicyCCResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sch1="http://sl/common/schema" xmlns:ns1="http://sl/ignite/schema">
+            <sch1:systemId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:systemId>
+            <sch1:messageId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:messageId>
+            <sch1:correlationId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:correlationId>
+            <ns1:policy xsi:type="ns1:VzrPoliciesXT">
+                <ns1:policyId>${ID}</ns1:policyId>
+                <ns1:objectId>-1</ns1:objectId>
+                <ns1:product>
+                    <ns1:productId>150000</ns1:productId>
+                    <ns1:productCode>VZR_ECONOM</ns1:productCode>
+                    <ns1:externalId>150000</ns1:externalId>
+                    <ns1:externalSystem>
+                        <ns1:externalSystemId>1</ns1:externalSystemId>
+                    </ns1:externalSystem>
+                    <ns1:name>ECONOM-CLASS (Базовый)</ns1:name>
+                    <ns1:descr>страхования в путешествии</ns1:descr>
+                </ns1:product>
+                <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
+                <ns1:dateCreate>2020-04-22T00:00:00.000+03:00</ns1:dateCreate>
+                <ns1:dateStart>2020-06-21T00:00:00.000+03:00</ns1:dateStart>
+                <ns1:dateEnd>2020-12-17T00:00:00.000+03:00</ns1:dateEnd>
+                <ns1:currency>
+                    <ns1:currencyId>2</ns1:currencyId>
+                    <ns1:currencyCode>USD</ns1:currencyCode>
+                    <ns1:name>Доллар США</ns1:name>
+                </ns1:currency>
+                <ns1:policyStatus>
+                    <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
+                    <ns1:name>Оплачен</ns1:name>
+                </ns1:policyStatus>
+                <ns1:policyObjects>
+                    <ns1:object xsi:type="ns1:IndividualsXT">
+                        <ns1:objectId>16227426</ns1:objectId>
+                        <ns1:objectType>
+                            <ns1:objectTypeId>2</ns1:objectTypeId>
+                        </ns1:objectType>
+                        <ns1:contractorType>
+                            <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                        </ns1:contractorType>
+                        <ns1:isResident>false</ns1:isResident>
+                        <ns1:inn>33463662262</ns1:inn>
+                        <ns1:firstName>Страхователь</ns1:firstName>
+                        <ns1:surname>Иванов</ns1:surname>
+                        <ns1:secondName>Иванович</ns1:secondName>
+                        <ns1:birthDate>2000-10-20</ns1:birthDate>
+                        <ns1:gender>1</ns1:gender>
+                        <ns1:fullName>Иванов Страхователь Иванович</ns1:fullName>
+                        <ns1:latName>Ivanov Strahovatel</ns1:latName>
+                    </ns1:object>
+                    <ns1:objectType>
+                        <ns1:objectTypeId>2</ns1:objectTypeId>
+                    </ns1:objectType>
+                    <ns1:product>
+                        <ns1:productId>150000</ns1:productId>
+                    </ns1:product>
+                    <ns1:orderNo>1</ns1:orderNo>
+                    <ns1:territoryId/>
+                    <ns1:remark/>
+                    <ns1:conditions>
+                        <ns1:conditionId>3894147</ns1:conditionId>
+                        <ns1:product>
+                            <ns1:productId>150000</ns1:productId>
+                            <ns1:productCode>VZR_ECONOM</ns1:productCode>
+                            <ns1:externalId>150000</ns1:externalId>
+                            <ns1:externalSystem>
+                                <ns1:externalSystemId>1</ns1:externalSystemId>
+                            </ns1:externalSystem>
+                            <ns1:name>ECONOM-CLASS (Базовый)</ns1:name>
+                            <ns1:descr>страхования в путешествии</ns1:descr>
+                        </ns1:product>
+                        <ns1:franchise>
+                            <ns1:franchiseId>2</ns1:franchiseId>
+                            <ns1:franchiseCode>UNCONDITIONAL</ns1:franchiseCode>
+                            <ns1:externalId>2</ns1:externalId>
+                            <ns1:externalSystem>
+                                <ns1:externalSystemId>1</ns1:externalSystemId>
+                            </ns1:externalSystem>
+                            <ns1:name>Безусловная франшиза</ns1:name>
+                        </ns1:franchise>
+                        <ns1:name/>
+                        <ns1:premium>637440.83</ns1:premium>
+                        <ns1:insuranceSum>3050248.00</ns1:insuranceSum>
+                        <ns1:beginDate>2020-06-21</ns1:beginDate>
+                        <ns1:endDate>2020-12-17</ns1:endDate>
+                        <ns1:duration>180</ns1:duration>
+                        <ns1:insuranceSumCur>40000.00</ns1:insuranceSumCur>
+                        <ns1:premiumCur>8359.20</ns1:premiumCur>
+                        <ns1:conditionProductRisks>
+                            <ns1:product>
+                                <ns1:productId>150000</ns1:productId>
+                            </ns1:product>
+                            <ns1:risk>
+                                <ns1:riskId>170001</ns1:riskId>
+                                <ns1:riskCode>VZR_ECONOM_MEDIC</ns1:riskCode>
+                                <ns1:externalId>170001</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>1</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Медицинский риск для продукта «Эконом» ВЗР</ns1:name>
+                                <ns1:descr>Медицинский риск для продукта «Эконом»</ns1:descr>
+                                <ns1:fullDescr>Медицинский риск для продукта «Эконом»</ns1:fullDescr>
+                            </ns1:risk>
+                        </ns1:conditionProductRisks>
+                    </ns1:conditions>
+                    <ns1:conditions>
+                        <ns1:conditionId>3894149</ns1:conditionId>
+                        <ns1:product>
+                            <ns1:productId>150000</ns1:productId>
+                            <ns1:productCode>VZR_ECONOM</ns1:productCode>
+                            <ns1:externalId>150000</ns1:externalId>
+                            <ns1:externalSystem>
+                                <ns1:externalSystemId>1</ns1:externalSystemId>
+                            </ns1:externalSystem>
+                            <ns1:name>ECONOM-CLASS (Базовый)</ns1:name>
+                            <ns1:descr>страхования в путешествии</ns1:descr>
+                        </ns1:product>
+                        <ns1:name/>
+                        <ns1:premium>823.57</ns1:premium>
+                        <ns1:insuranceSum>381281.00</ns1:insuranceSum>
+                        <ns1:beginDate>2020-06-21</ns1:beginDate>
+                        <ns1:endDate>2020-12-17</ns1:endDate>
+                        <ns1:duration>180</ns1:duration>
+                        <ns1:insuranceSumCur>5000.00</ns1:insuranceSumCur>
+                        <ns1:premiumCur>10.80</ns1:premiumCur>
+                        <ns1:conditionProductRisks>
+                            <ns1:product>
+                                <ns1:productId>150000</ns1:productId>
+                            </ns1:product>
+                            <ns1:risk>
+                                <ns1:riskId>10</ns1:riskId>
+                                <ns1:riskCode>CIVIL_LIABILITY</ns1:riskCode>
+                                <ns1:externalId>10</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>1</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Гражданская ответственность</ns1:name>
+                                <ns1:descr>Гражданская ответственность</ns1:descr>
+                                <ns1:fullDescr>Гражданская ответственность</ns1:fullDescr>
+                            </ns1:risk>
+                        </ns1:conditionProductRisks>
+                    </ns1:conditions>
+                    <ns1:conditions>
+                        <ns1:conditionId>3894148</ns1:conditionId>
+                        <ns1:product>
+                            <ns1:productId>150000</ns1:productId>
+                            <ns1:productCode>VZR_ECONOM</ns1:productCode>
+                            <ns1:externalId>150000</ns1:externalId>
+                            <ns1:externalSystem>
+                                <ns1:externalSystemId>1</ns1:externalSystemId>
+                            </ns1:externalSystem>
+                            <ns1:name>ECONOM-CLASS (Базовый)</ns1:name>
+                            <ns1:descr>страхования в путешествии</ns1:descr>
+                        </ns1:product>
+                        <ns1:name/>
+                        <ns1:premium>16334.08</ns1:premium>
+                        <ns1:insuranceSum>381281.00</ns1:insuranceSum>
+                        <ns1:beginDate>2020-06-21</ns1:beginDate>
+                        <ns1:endDate>2020-12-17</ns1:endDate>
+                        <ns1:duration>180</ns1:duration>
+                        <ns1:insuranceSumCur>5000.00</ns1:insuranceSumCur>
+                        <ns1:premiumCur>214.20</ns1:premiumCur>
+                        <ns1:conditionProductRisks>
+                            <ns1:product>
+                                <ns1:productId>150000</ns1:productId>
+                            </ns1:product>
+                            <ns1:risk>
+                                <ns1:riskId>170003</ns1:riskId>
+                                <ns1:riskCode>VZR_ACCIDENT</ns1:riskCode>
+                                <ns1:externalId>170003</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>1</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Риск «Несчастный случай» ВЗР</ns1:name>
+                                <ns1:descr>Риск «Несчастный случай» ВЗР</ns1:descr>
+                                <ns1:fullDescr>Риск «Несчастный случай» ВЗР</ns1:fullDescr>
+                            </ns1:risk>
+                        </ns1:conditionProductRisks>
+                    </ns1:conditions>
+                </ns1:policyObjects>
+                <ns1:participant>
+                    <ns1:contractor xsi:type="ns1:IndividualsXT">
+                        <ns1:objectId>16227424</ns1:objectId>
+                        <ns1:objectType>
+                            <ns1:objectTypeId>2</ns1:objectTypeId>
+                            <ns1:code>CONTRACTOR</ns1:code>
+                            <ns1:name>Contractor</ns1:name>
+                            <ns1:descr>contractor</ns1:descr>
+                        </ns1:objectType>
+                        <ns1:name>Иванов Иван Иванович</ns1:name>
+                        <ns1:docs>
+                            <ns1:objectDocType>
+                                <ns1:objectDocTypeId>7</ns1:objectDocTypeId>
+                                <ns1:objectDocTypeCode>FOREIGN_PASSPORT</ns1:objectDocTypeCode>
+                                <ns1:externalId>FFE7EC35-C987-4FB8-9FE0-2553E0120B19</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>3</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Иностранный паспорт</ns1:name>
+                            </ns1:objectDocType>
+                            <ns1:series>709-01</ns1:series>
+                            <ns1:number>5169364</ns1:number>
+                            <ns1:dateIssue>2014-07-16</ns1:dateIssue>
+                            <ns1:whom>УФМС №2 по гор.Москва, район Хамовники</ns1:whom>
+                            <ns1:validThru>2024-09-19</ns1:validThru>
+                            <ns1:subdivisionCode>702-01</ns1:subdivisionCode>
+                            <ns1:isMain>false</ns1:isMain>
+                        </ns1:docs>
+                        <ns1:contractorType>
+                            <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                            <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                            <ns1:externalId>02CD4921-5874-4237-9E37-3755598599E5</ns1:externalId>
+                            <ns1:externalSystem>
+                                <ns1:externalSystemId>3</ns1:externalSystemId>
+                            </ns1:externalSystem>
+                            <ns1:name>Individual</ns1:name>
+                        </ns1:contractorType>
+                        <ns1:isResident>false</ns1:isResident>
+                        <ns1:inn>33463662262</ns1:inn>
+                        <ns1:contacts>
+                            <ns1:contactId>11337204774241</ns1:contactId>
+                            <ns1:contactType>
+                                <ns1:contactTypeId>1</ns1:contactTypeId>
+                                <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                            </ns1:contactType>
+                            <ns1:contact>79061755254</ns1:contact>
+                            <ns1:contactPerson/>
+                        </ns1:contacts>
+                        <ns1:contacts>
+                            <ns1:contactId>11337204774240</ns1:contactId>
+                            <ns1:contactType>
+                                <ns1:contactTypeId>2</ns1:contactTypeId>
+                                <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                                <ns1:name>Email</ns1:name>
+                                <ns1:descr>email</ns1:descr>
+                            </ns1:contactType>
+                            <ns1:contact>manukyan@vsk.ru</ns1:contact>
+                            <ns1:contactPerson/>
+                        </ns1:contacts>
+                        <ns1:addresses>
+                            <ns1:addressType>
+                                <ns1:addressTypeId>1</ns1:addressTypeId>
+                                <ns1:addressTypeCode>REGISTRATION</ns1:addressTypeCode>
+                                <ns1:externalId>1CC3A819-0BBE-4F66-ABE3-7BFC538832A4</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>3</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Адрес по месту регистрации</ns1:name>
+                            </ns1:addressType>
+                            <ns1:region/>
+                            <ns1:district/>
+                            <ns1:city>г. Москва</ns1:city>
+                            <ns1:locality/>
+                            <ns1:street>ул. Нарофоминская</ns1:street>
+                            <ns1:house>2</ns1:house>
+                            <ns1:building>2</ns1:building>
+                            <ns1:flat>2</ns1:flat>
+                            <ns1:okato/>
+                            <ns1:addressStr/>
+                            <ns1:kladr/>
+                            <ns1:index/>
+                        </ns1:addresses>
+                        <ns1:firstName>Иван</ns1:firstName>
+                        <ns1:surname>Иванов</ns1:surname>
+                        <ns1:secondName>Иванович</ns1:secondName>
+                        <ns1:birthDate>2000-10-20</ns1:birthDate>
+                        <ns1:gender>1</ns1:gender>
+                        <ns1:fullName>Иванов Иван Иванович</ns1:fullName>
+                        <ns1:latName>Ivanov Ivan</ns1:latName>
+                    </ns1:contractor>
+                    <ns1:participantType>
+                        <ns1:participantTypeId>1</ns1:participantTypeId>
+                        <ns1:participantTypeCode>INSURANT</ns1:participantTypeCode>
+                        <ns1:name>Страхователь</ns1:name>
+                        <ns1:descr/>
+                    </ns1:participantType>
+                </ns1:participant>
+                <ns1:participant>
+                    <ns1:contractor xsi:type="ns1:IndividualsXT">
+                        <ns1:objectId>16227425</ns1:objectId>
+                        <ns1:objectType>
+                            <ns1:objectTypeId>2</ns1:objectTypeId>
+                            <ns1:code>CONTRACTOR</ns1:code>
+                            <ns1:name>Contractor</ns1:name>
+                            <ns1:descr>contractor</ns1:descr>
+                        </ns1:objectType>
+                        <ns1:name>Иванова Мария Ивановна</ns1:name>
+                        <ns1:docs>
+                            <ns1:objectDocType>
+                                <ns1:objectDocTypeId>7</ns1:objectDocTypeId>
+                                <ns1:objectDocTypeCode>FOREIGN_PASSPORT</ns1:objectDocTypeCode>
+                                <ns1:externalId>FFE7EC35-C987-4FB8-9FE0-2553E0120B19</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>3</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Иностранный паспорт</ns1:name>
+                            </ns1:objectDocType>
+                            <ns1:series>709-01</ns1:series>
+                            <ns1:number>5169364</ns1:number>
+                            <ns1:dateIssue>2014-07-16</ns1:dateIssue>
+                            <ns1:whom>УФМС №2 по гор.Москва, район Хамовники</ns1:whom>
+                            <ns1:validThru>2024-09-19</ns1:validThru>
+                            <ns1:subdivisionCode>702-01</ns1:subdivisionCode>
+                            <ns1:isMain>false</ns1:isMain>
+                        </ns1:docs>
+                        <ns1:contractorType>
+                            <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                            <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                            <ns1:externalId>02CD4921-5874-4237-9E37-3755598599E5</ns1:externalId>
+                            <ns1:externalSystem>
+                                <ns1:externalSystemId>3</ns1:externalSystemId>
+                            </ns1:externalSystem>
+                            <ns1:name>Individual</ns1:name>
+                        </ns1:contractorType>
+                        <ns1:isResident>false</ns1:isResident>
+                        <ns1:inn>33463662262</ns1:inn>
+                        <ns1:contacts>
+                            <ns1:contactId>11337204774243</ns1:contactId>
+                            <ns1:contactType>
+                                <ns1:contactTypeId>1</ns1:contactTypeId>
+                                <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
+                            </ns1:contactType>
+                            <ns1:contact>79061755254</ns1:contact>
+                            <ns1:contactPerson/>
+                        </ns1:contacts>
+                        <ns1:contacts>
+                            <ns1:contactId>11337204774242</ns1:contactId>
+                            <ns1:contactType>
+                                <ns1:contactTypeId>2</ns1:contactTypeId>
+                                <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
+                                <ns1:name>Email</ns1:name>
+                                <ns1:descr>email</ns1:descr>
+                            </ns1:contactType>
+                            <ns1:contact>manukyan@vsk.ru</ns1:contact>
+                            <ns1:contactPerson/>
+                        </ns1:contacts>
+                        <ns1:addresses>
+                            <ns1:addressType>
+                                <ns1:addressTypeId>1</ns1:addressTypeId>
+                                <ns1:addressTypeCode>REGISTRATION</ns1:addressTypeCode>
+                                <ns1:externalId>1CC3A819-0BBE-4F66-ABE3-7BFC538832A4</ns1:externalId>
+                                <ns1:externalSystem>
+                                    <ns1:externalSystemId>3</ns1:externalSystemId>
+                                </ns1:externalSystem>
+                                <ns1:name>Адрес по месту регистрации</ns1:name>
+                            </ns1:addressType>
+                            <ns1:region/>
+                            <ns1:district/>
+                            <ns1:city>г. Москва</ns1:city>
+                            <ns1:locality/>
+                            <ns1:street>ул. Нарофоминская</ns1:street>
+                            <ns1:house>2</ns1:house>
+                            <ns1:building>2</ns1:building>
+                            <ns1:flat>2</ns1:flat>
+                            <ns1:okato/>
+                            <ns1:addressStr/>
+                            <ns1:kladr/>
+                            <ns1:index/>
+                        </ns1:addresses>
+                        <ns1:firstName>Мария</ns1:firstName>
+                        <ns1:surname>Иванова</ns1:surname>
+                        <ns1:secondName>Ивановна</ns1:secondName>
+                        <ns1:birthDate>1941-10-20</ns1:birthDate>
+                        <ns1:gender>2</ns1:gender>
+                        <ns1:fullName>Иванова Мария Ивановна</ns1:fullName>
+                        <ns1:latName>Ivanova Mariya</ns1:latName>
+                    </ns1:contractor>
+                    <ns1:participantType>
+                        <ns1:participantTypeId>3</ns1:participantTypeId>
+                        <ns1:participantTypeCode>INSURED</ns1:participantTypeCode>
+                        <ns1:name>Застрахованное лицо</ns1:name>
+                        <ns1:descr/>
+                    </ns1:participantType>
+                </ns1:participant>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>12</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>CHANNEL_TYPE_ID</ns1:classifierTypeCode>
+                        <ns1:name>Канал продаж</ns1:name>
+                        <ns1:descr>Канал продаж</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>361</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>5</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>KV_AGENT</ns1:classifierTypeCode>
+                        <ns1:name>Комиссионное вознаграждение агента</ns1:name>
+                        <ns1:descr>Комиссионное вознаграждение агента</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>30</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>11</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>CONTRACT_DIVISION_ID</ns1:classifierTypeCode>
+                        <ns1:name>ID подразделения ВСК, ответственного за договор</ns1:name>
+                        <ns1:descr>ID подразделения ВСК, ответственного за договор</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>18</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>10</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>CONTRACT_RESPONSIBLE_ID</ns1:classifierTypeCode>
+                        <ns1:name>ID пользователя ВСК, ответственного за договор</ns1:name>
+                        <ns1:descr>ID пользователя ВСК, ответственного за договор</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>0027001053</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>33</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>RETENTION</ns1:classifierTypeCode>
+                        <ns1:name>Удержание в КВ Агента. Агентов по договору</ns1:name>
+                        <ns1:descr>Булевый тип. Удержание в КВ Агента. Агентов по договору</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>true</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>1</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>DEAL_REGION</ns1:classifierTypeCode>
+                        <ns1:name>Регион сделки</ns1:name>
+                        <ns1:descr>Регион, где произошла сделка</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>77</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>8</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>AGENT_CONTRACT_NUMBER</ns1:classifierTypeCode>
+                        <ns1:name>Номер агентского договора</ns1:name>
+                        <ns1:descr>Номер агентского договора</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>09719220001</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:classifiers>
+                    <ns1:classifierType>
+                        <ns1:classifierTypeId>23</ns1:classifierTypeId>
+                        <ns1:classifierTypeCode>PARTNER_CODE</ns1:classifierTypeCode>
+                        <ns1:name>Код партнера</ns1:name>
+                        <ns1:descr>Код партнера</ns1:descr>
+                    </ns1:classifierType>
+                    <ns1:classifierValue>INFOSERVICE</ns1:classifierValue>
+                </ns1:classifiers>
+                <ns1:tourists0-2>0</ns1:tourists0-2>
+                <ns1:tourists3-64>0</ns1:tourists3-64>
+                <ns1:tourists65-70>0</ns1:tourists65-70>
+                <ns1:tourists71-75>0</ns1:tourists71-75>
+                <ns1:tourists76-80>0</ns1:tourists76-80>
+                <ns1:tourists80>0</ns1:tourists80>
+                <ns1:multi>false</ns1:multi>
+                <ns1:periodDuration>180</ns1:periodDuration>
+                <ns1:vzrPolicyType>
+                    <ns1:type>
+                        <ns1:typeId>1</ns1:typeId>
+                        <ns1:code>B15</ns1:code>
+                        <ns1:name>Активный отдых</ns1:name>
+                        <ns1:descr><![CDATA[Выберите эту опцию, если Вы планируете:
+<ul class="tooltip-list tooltip-list_type_checkmark">
+    <li>развлечения на воде с использованием водных мотоциклов, буксируемых надувных средств и парашютов;</li>
+    <li>посещение аквапарков и водных аттракционов;</li>
+    <li>катание на велосипедах, мотоциклах, квадроциклах, снегоходах;</li>
+    <li>охоту, рыбалку, туризм;</li>
+    <li>прогулки на лошадях;</li>
+    <li>игры в волейбол или футбол на пляже;</li>
+    <li>иные спортивные игры и развлекательные мероприятия.</li>
+</ul>]]></ns1:descr>
+                    </ns1:type>
+                </ns1:vzrPolicyType>
+                <ns1:vzrPolicyLocations>
+                    <ns1:location>
+                        <ns1:locationId>1000695</ns1:locationId>
+                        <ns1:code>United States of America</ns1:code>
+                        <ns1:currency>
+                            <ns1:currencyId>2</ns1:currencyId>
+                        </ns1:currency>
+                        <ns1:name>США</ns1:name>
+                        <ns1:factor>0.00</ns1:factor>
+                        <ns1:assistantCompany>malyshkina@vsk.ru</ns1:assistantCompany>
+                    </ns1:location>
+                </ns1:vzrPolicyLocations>
+            </ns1:policy>
+        </ns1:getPolicyCCResponse>
+    </soap:Body>
+</soap:Envelope>
