@@ -28,7 +28,7 @@ public final class JMSworker extends BaseClass {
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         MessageProducer producer = session.createProducer(destination);
         TextMessage message = session.createTextMessage();
-        String paths = "src/test/java/kkconverter/products/";
+        String paths = "/builds/qat/kkconverter/src/test/java/kkconverter/products/";
         String rightString1 = new String(Files.readAllBytes(Paths.get(paths + fileName)), StandardCharsets.UTF_8);
         String rightString = rightString1.replace("${ID}", policyId).replace("${NUMBER}", policyId);
         System.out.println("message send with CID: " + policyId);
