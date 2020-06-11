@@ -6,7 +6,7 @@ KKconverter-test_on_test:
   image: nexus.vsk.ru:8182/vsk/maven:3.6.1-jdk11
   script:
     - echo "KKconverter tests on Test with maven..."
-    - PWD
+    - pwd
     - ls -l /src/test/java/kkconverter/products/
     - mvn test -Dtest=UnitTests -Darg=test
   when: manual
