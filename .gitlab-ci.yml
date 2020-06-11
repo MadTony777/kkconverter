@@ -7,7 +7,7 @@ KKconverter-test_on_test:
   script:
     - echo "KKconverter tests on Test with maven..."
     - pwd
-    - ls -lsa /src/
+    - ls -lsa src/
     - mvn test -Dtest=UnitTests -Darg=test
   when: manual
   tags:
