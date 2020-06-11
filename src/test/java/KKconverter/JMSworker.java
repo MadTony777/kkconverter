@@ -2,8 +2,6 @@ package kkconverter;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.command.ActiveMQQueue;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.jms.*;
 import java.io.IOException;

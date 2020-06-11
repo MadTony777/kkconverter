@@ -80,7 +80,7 @@
             <artifactId>ojdbc14</artifactId>
             <version>10</version>
             <scope>system</scope>
-            <systemPath>c:/Tools/apache-maven-3.6.1/lib/ojdbc10.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/ojdbc10.jar</systemPath>
         </dependency>
     </dependencies>
 

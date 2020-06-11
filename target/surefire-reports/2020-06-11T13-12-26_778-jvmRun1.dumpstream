@@ -1,0 +1,36 @@
+# Created at 2020-06-11T13:12:33.783
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2020-06-11T13:13:23.794
+Unexpected IOException with stream: Steps are: 
+3028430  3028429  10  null
+
+
+
+# Created at 2020-06-11T13:13:23.802
+Unexpected IOException with stream: [main] INFO kkconverter.UnitTests - End test
+
+
+
+# Created at 2020-06-11T13:13:23.810
+Unexpected IOException: 8,1,kkconverter.UnitTests,KKadinsure_11001,null,\000AExpected: a string containing "20"\000A     but: was "3028430  3028429  10  null\000A",null,\000AExpected: a string containing "20"\000A     but: was "3028430  3028429  10  null\000A",UnitTests.KKadinsure_11001:90->checkValues:10->BaseClass.checkValues:21 \000AExpected: a string containing "20"\000A     but: was "3028430  3028429  10  null\000A",java.lang.AssertionError: \000A\000AExpected: a string containing "20"\000A     but: was "3028430  3028429  10  null\000A"\000A\0009at kkconverter.UnitTests.checkValues(UnitTests.java:10)\000A\0009at kkconverter.UnitTests.KKadinsure_11001(UnitTests.java:90)\000A
+
+
+# Created at 2020-06-11T13:13:23.811
+Unexpected IOException: 5,1,kkconverter.UnitTests,KKadinsure_12001,null,null,null
+
+
+# Created at 2020-06-11T13:13:23.812
+Unexpected IOException with stream: [main] INFO kkconverter.UnitTests - Starting test: KKadinsure_12001()
+
+
+# Created at 2020-06-11T13:13:24.190
+Unexpected IOException with stream: message send with CID: 5875254
+
+
