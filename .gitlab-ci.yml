@@ -13,7 +13,7 @@ KKconverter-test_on_test:
     - docker
 
 KKconverter-test_on_stage:
-  stage: test
+  stage: stage
   image: nexus.vsk.ru:8182/vsk/maven:3.6.1-jdk11
   script:
     - echo "KKconverter tests on Test with maven..."
