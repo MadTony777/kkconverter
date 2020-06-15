@@ -16,7 +16,7 @@ KKconverter-test_on_stage:
   stage: stage
   image: nexus.vsk.ru:8182/vsk/maven:3.6.1-jdk11
   script:
-    - echo "KKconverter tests on Test with maven..."
+    - echo "KKconverter tests on Stage with maven..."
     - mvn test -Dtest=UnitTests -Darg=stage
   when: manual
   tags:
