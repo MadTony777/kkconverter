@@ -11,16 +11,16 @@ public class UnitTests extends BaseClass {
     kkTestadi kktest = new kkTestadi();
     String arg = System.getProperty("arg", "test");
     public String environment = arg;
-    Logger logger = LoggerFactory.getLogger(UnitTests.class);
+    Logger log = LoggerFactory.getLogger(UnitTests.class);
 
     @BeforeEach
     public void executedBeforeEach(TestInfo testInfo) {
-        logger.info("Starting test: "+ testInfo.getDisplayName());
+        log.info("Starting test: "+ testInfo.getDisplayName());
     }
 
     @AfterEach
     public void executedAfterEach() {
-        logger.info("End test\n");
+        log.info("End test\n");
     }
     @Test
     public void KKadinsure_110001() throws Exception {
