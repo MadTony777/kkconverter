@@ -20,8 +20,8 @@
                      <ns1:descr/>
                      <ns1:fullDescr/>
                   </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+                  <ns1:beginDate>2020-06-11</ns1:beginDate>
+                  <ns1:endDate>2020-07-11</ns1:endDate>
                </ns1:productRisks>
                <ns1:productRisks>
                   <ns1:risk>
@@ -42,8 +42,8 @@
                      <ns1:descr/>
                      <ns1:fullDescr/>
                   </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+                  <ns1:beginDate>2020-06-11</ns1:beginDate>
+                  <ns1:endDate>2020-07-11</ns1:endDate>
                </ns1:productRisks>
                <ns1:productRisks>
                   <ns1:risk>
@@ -53,8 +53,8 @@
                      <ns1:descr/>
                      <ns1:fullDescr/>
                   </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+                  <ns1:beginDate>2020-06-11</ns1:beginDate>
+                  <ns1:endDate>2020-07-11</ns1:endDate>
                </ns1:productRisks>
                <ns1:productRisks>
                   <ns1:risk>
@@ -64,8 +64,8 @@
                      <ns1:descr/>
                      <ns1:fullDescr/>
                   </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+                  <ns1:beginDate>2020-06-11</ns1:beginDate>
+                  <ns1:endDate>2020-07-11</ns1:endDate>
                </ns1:productRisks>
                <ns1:productRisks>
                   <ns1:risk>
@@ -75,14 +75,14 @@
                      <ns1:descr/>
                      <ns1:fullDescr/>
                   </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
+                  <ns1:beginDate>2020-06-11</ns1:beginDate>
+                  <ns1:endDate>2020-07-11</ns1:endDate>
                </ns1:productRisks>
             </ns1:product>
             <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
-            <ns1:dateCreate>2020-01-29T03:00:00.000+03:00</ns1:dateCreate>
-            <ns1:dateStart>2020-01-29T03:00:00.000+03:00</ns1:dateStart>
-            <ns1:dateEnd>2020-02-28T03:00:00.000+03:00</ns1:dateEnd>
+            <ns1:dateCreate>2020-04-22T00:00:00.000+03:00</ns1:dateCreate>
+            <ns1:dateStart>2020-06-11T00:00:00.000+03:00</ns1:dateStart>
+            <ns1:dateEnd>2020-07-11T00:00:00.000+03:00</ns1:dateEnd>
             <ns1:policyStatus>
                <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
                <ns1:name>Оплачен</ns1:name>
