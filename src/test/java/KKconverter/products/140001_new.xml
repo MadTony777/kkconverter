@@ -91,8 +91,8 @@
                   <ns1:name/>
                   <ns1:premium>7.00</ns1:premium>
                   <ns1:insuranceSum>200.00</ns1:insuranceSum>
-                  <ns1:beginDate>2020-07-07</ns1:beginDate>
-                  <ns1:endDate>2020-08-06</ns1:endDate>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
                   <ns1:duration>30</ns1:duration>
                   <ns1:conditionProductRisks>
                      <ns1:product>
@@ -119,8 +119,8 @@
                   <ns1:name/>
                   <ns1:premium>29.00</ns1:premium>
                   <ns1:insuranceSum>800.00</ns1:insuranceSum>
-                  <ns1:beginDate>2020-07-07</ns1:beginDate>
-                  <ns1:endDate>2020-08-06</ns1:endDate>
+                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
+                  <ns1:endDate>2199-12-31+03:00</ns1:endDate>
                   <ns1:duration>30</ns1:duration>
                   <ns1:conditionProductRisks>
                      <ns1:product>
