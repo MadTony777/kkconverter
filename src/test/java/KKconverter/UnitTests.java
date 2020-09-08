@@ -568,4 +568,16 @@ public class UnitTests extends BaseClass {
         checkValues(steps, "50");
         checkValues(steps, "60");
     }
+
+    @Test
+    public void KKadinsure_140001_new() throws Exception {
+        String steps = kktest.converter(generatedString,"140001_new.xml", environment);
+        log.info("Steps are: \n" + steps);
+        checkValues(steps, "10");
+        checkValues(steps, "20");
+        checkValues(steps, "30");
+        checkValues(steps, "40");
+        checkValues(steps, "50");
+        checkValues(steps, "60");
+    }
 }
