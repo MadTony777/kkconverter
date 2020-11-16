@@ -594,17 +594,17 @@ public class UnitTests extends BaseClass {
     }
 
 
-    @Test
-    public void KKadinsure_40003() throws Exception {
-        String steps = kktest.converter(generatedString,"40003.xml", environment);
-        System.out.println("Steps are: \n" + steps);
-        checkValues(steps, "10");
-        checkValues(steps, "20");
-        checkValues(steps, "30");
-        checkValues(steps, "40");
-        checkValues(steps, "50");
-        checkValues(steps, "60 ");
-    }
+ //   @Test
+ //   public void KKadinsure_40003() throws Exception {
+ //       String steps = kktest.converter(generatedString,"40003.xml", environment);
+ //       System.out.println("Steps are: \n" + steps);
+ //       checkValues(steps, "10");
+ //       checkValues(steps, "20");
+ //       checkValues(steps, "30");
+//        checkValues(steps, "40");
+//        checkValues(steps, "50");
+//        checkValues(steps, "60 ");
+ //   }
 
 
     @Test
