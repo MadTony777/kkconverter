@@ -14,7 +14,7 @@ class BaseClass {
     static String queue = "ccache.sys.out.queue.jms";
 
 
-    protected String generatedString = RandomStringUtils.random(9, false, true);
+    protected String generatedString = RandomStringUtils.random(11, false, true);
 
     public void checkValues(String actualValue, String expectedValue){
         try {
