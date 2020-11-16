@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="kkconverter.UnitTests" time="2,190.155" tests="43" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="kkconverter.UnitTests" time="2,223.444" tests="43" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\MavenProjects\kkconverter\target\test-classes;C:\MavenProjects\kkconverter\target\classes;C:\Users\Dobrynin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dobrynin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0-M1\junit-jupiter-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dobrynin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0-M1\junit-jupiter-params-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Dobrynin\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\activemq\activemq-client\5.15.12\activemq-client-5.15.12.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\Dobrynin\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;c:\Tools\apache-maven-3.6.1\lib\ojdbc10.jar;"/>
+    <property name="java.class.path" value="C:\MavenProjects\kkconverter\target\test-classes;C:\MavenProjects\kkconverter\target\classes;C:\Users\Dobrynin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dobrynin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0-M1\junit-jupiter-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dobrynin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0-M1\junit-jupiter-params-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Dobrynin\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\activemq\activemq-client\5.15.12\activemq-client-5.15.12.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\Dobrynin\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Dobrynin\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar;C:\Users\Dobrynin\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar;C:\MavenProjects\kkconverter\src\main\resources\ojdbc10.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,10 +17,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dobrynin\AppData\Local\Temp\surefire1607799856555792602\surefirebooter14041672043910365501.jar C:\Users\Dobrynin\AppData\Local\Temp\surefire1607799856555792602 2020-06-08T11-35-03_406-jvmRun1 surefire14940250140608831675tmp surefire_015854138311973915896tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dobrynin\AppData\Local\Temp\surefire10977653999999000143\surefirebooter2560595259670028015.jar C:\Users\Dobrynin\AppData\Local\Temp\surefire10977653999999000143 2020-08-04T14-19-16_892-jvmRun1 surefire1073053744519540469tmp surefire_01017705529529366462tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="UnitTests"/>
-    <property name="surefire.test.class.path" value="C:\MavenProjects\kkconverter\target\test-classes;C:\MavenProjects\kkconverter\target\classes;C:\Users\Dobrynin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dobrynin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0-M1\junit-jupiter-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dobrynin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0-M1\junit-jupiter-params-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Dobrynin\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\activemq\activemq-client\5.15.12\activemq-client-5.15.12.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\Dobrynin\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;c:\Tools\apache-maven-3.6.1\lib\ojdbc10.jar;"/>
+    <property name="surefire.test.class.path" value="C:\MavenProjects\kkconverter\target\test-classes;C:\MavenProjects\kkconverter\target\classes;C:\Users\Dobrynin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dobrynin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0-M1\junit-jupiter-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dobrynin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0-M1\junit-jupiter-params-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Dobrynin\.m2\repository\javax\jms\javax.jms-api\2.0.1\javax.jms-api-2.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\apache\activemq\activemq-client\5.15.12\activemq-client-5.15.12.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\Dobrynin\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\Dobrynin\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\Dobrynin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Dobrynin\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar;C:\Users\Dobrynin\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar;C:\MavenProjects\kkconverter\src\main\resources\ojdbc10.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dobrynin"/>
     <property name="user.language" value="ru"/>
@@ -34,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dobrynin\AppData\Local\Temp\surefire1607799856555792602\surefirebooter14041672043910365501.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dobrynin\AppData\Local\Temp\surefire10977653999999000143\surefirebooter2560595259670028015.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -60,47 +60,175 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="KKadinsure_11001" classname="kkconverter.UnitTests" time="51.781"/>
-  <testcase name="KKadinsure_12001" classname="kkconverter.UnitTests" time="50.7"/>
-  <testcase name="KKadinsure_20001" classname="kkconverter.UnitTests" time="50.732"/>
-  <testcase name="KKadinsure_20002" classname="kkconverter.UnitTests" time="50.769"/>
-  <testcase name="KKadinsure_20003" classname="kkconverter.UnitTests" time="50.7"/>
-  <testcase name="KKadinsure_20004" classname="kkconverter.UnitTests" time="50.739"/>
-  <testcase name="KKadinsure_20005" classname="kkconverter.UnitTests" time="50.681"/>
-  <testcase name="KKadinsure_20006" classname="kkconverter.UnitTests" time="50.703"/>
-  <testcase name="KKadinsure_30001" classname="kkconverter.UnitTests" time="51.025"/>
-  <testcase name="KKadinsure_30002" classname="kkconverter.UnitTests" time="51.031"/>
-  <testcase name="KKadinsure_30003" classname="kkconverter.UnitTests" time="50.755"/>
-  <testcase name="KKadinsure_30004" classname="kkconverter.UnitTests" time="50.721"/>
-  <testcase name="KKadinsure_30005" classname="kkconverter.UnitTests" time="50.715"/>
-  <testcase name="KKadinsure_30006" classname="kkconverter.UnitTests" time="50.719"/>
-  <testcase name="KKadinsure_30007" classname="kkconverter.UnitTests" time="50.713"/>
-  <testcase name="KKadinsure_30008" classname="kkconverter.UnitTests" time="50.812"/>
-  <testcase name="KKadinsure_30009" classname="kkconverter.UnitTests" time="50.753"/>
-  <testcase name="KKadinsure_70001" classname="kkconverter.UnitTests" time="50.713"/>
-  <testcase name="KKadinsure_70002" classname="kkconverter.UnitTests" time="50.684"/>
-  <testcase name="KKadinsure_80001" classname="kkconverter.UnitTests" time="50.704"/>
-  <testcase name="KKadinsure_80002" classname="kkconverter.UnitTests" time="50.727"/>
-  <testcase name="KKadinsure_80003" classname="kkconverter.UnitTests" time="50.672"/>
-  <testcase name="KKadinsure_80004" classname="kkconverter.UnitTests" time="50.703"/>
-  <testcase name="KKadinsure_80005" classname="kkconverter.UnitTests" time="50.706"/>
-  <testcase name="KKadinsure_110001" classname="kkconverter.UnitTests" time="50.686"/>
-  <testcase name="KKadinsure_110002" classname="kkconverter.UnitTests" time="51.104"/>
-  <testcase name="KKadinsure_110003" classname="kkconverter.UnitTests" time="51.006"/>
-  <testcase name="KKadinsure_110004" classname="kkconverter.UnitTests" time="50.66"/>
-  <testcase name="KKadinsure_110105" classname="kkconverter.UnitTests" time="50.706"/>
-  <testcase name="KKadinsure_120001" classname="kkconverter.UnitTests" time="50.694"/>
-  <testcase name="KKadinsure_140001" classname="kkconverter.UnitTests" time="50.706"/>
-  <testcase name="KKadinsure_140002" classname="kkconverter.UnitTests" time="50.695"/>
-  <testcase name="KKadinsure_150000" classname="kkconverter.UnitTests" time="50.691"/>
-  <testcase name="KKadinsure_150001" classname="kkconverter.UnitTests" time="51.094"/>
-  <testcase name="KKadinsure_150002" classname="kkconverter.UnitTests" time="51.132"/>
-  <testcase name="KKadinsure_1" classname="kkconverter.UnitTests" time="50.684"/>
-  <testcase name="KKadinsure_2" classname="kkconverter.UnitTests" time="54.184"/>
-  <testcase name="KKadinsure_3" classname="kkconverter.UnitTests" time="51.586"/>
-  <testcase name="KKadinsure_4" classname="kkconverter.UnitTests" time="51.145"/>
-  <testcase name="KKadinsure_5" classname="kkconverter.UnitTests" time="50.892"/>
-  <testcase name="KKadinsure_6" classname="kkconverter.UnitTests" time="51.218"/>
-  <testcase name="KKadinsure_7" classname="kkconverter.UnitTests" time="50.974"/>
-  <testcase name="KKadinsure_8" classname="kkconverter.UnitTests" time="51.332"/>
+  <testcase name="KKadinsure_11001" classname="kkconverter.UnitTests" time="53.473"/>
+  <testcase name="KKadinsure_12001" classname="kkconverter.UnitTests" time="51.882"/>
+  <testcase name="KKadinsure_20001" classname="kkconverter.UnitTests" time="51.523"/>
+  <testcase name="KKadinsure_20002" classname="kkconverter.UnitTests" time="51.562"/>
+  <testcase name="KKadinsure_20003" classname="kkconverter.UnitTests" time="51.449"/>
+  <testcase name="KKadinsure_20004" classname="kkconverter.UnitTests" time="53.351"/>
+  <testcase name="KKadinsure_20005" classname="kkconverter.UnitTests" time="51.754"/>
+  <testcase name="KKadinsure_20006" classname="kkconverter.UnitTests" time="51.479"/>
+  <testcase name="KKadinsure_30001" classname="kkconverter.UnitTests" time="51.265"/>
+  <testcase name="KKadinsure_30002" classname="kkconverter.UnitTests" time="51.563"/>
+  <testcase name="KKadinsure_30003" classname="kkconverter.UnitTests" time="51.797"/>
+  <testcase name="KKadinsure_30004" classname="kkconverter.UnitTests" time="51.332"/>
+  <testcase name="KKadinsure_30005" classname="kkconverter.UnitTests" time="51.62"/>
+  <testcase name="KKadinsure_30006" classname="kkconverter.UnitTests" time="51.561"/>
+  <testcase name="KKadinsure_30007" classname="kkconverter.UnitTests" time="51.333"/>
+  <testcase name="KKadinsure_30008" classname="kkconverter.UnitTests" time="51.232"/>
+  <testcase name="KKadinsure_30009" classname="kkconverter.UnitTests" time="51.532"/>
+  <testcase name="KKadinsure_70001" classname="kkconverter.UnitTests" time="51.086"/>
+  <testcase name="KKadinsure_70002" classname="kkconverter.UnitTests" time="50.793"/>
+  <testcase name="KKadinsure_80001" classname="kkconverter.UnitTests" time="51.383"/>
+  <testcase name="KKadinsure_80002" classname="kkconverter.UnitTests" time="51.278"/>
+  <testcase name="KKadinsure_80003" classname="kkconverter.UnitTests" time="51.047"/>
+  <testcase name="KKadinsure_80004" classname="kkconverter.UnitTests" time="51.716"/>
+  <testcase name="KKadinsure_80005" classname="kkconverter.UnitTests" time="51.421"/>
+  <testcase name="KKadinsure_110001" classname="kkconverter.UnitTests" time="51.732"/>
+  <testcase name="KKadinsure_110002" classname="kkconverter.UnitTests" time="51.368"/>
+  <testcase name="KKadinsure_110003" classname="kkconverter.UnitTests" time="51.714"/>
+  <testcase name="KKadinsure_110004" classname="kkconverter.UnitTests" time="51.294"/>
+  <testcase name="KKadinsure_110105" classname="kkconverter.UnitTests" time="51.105"/>
+  <testcase name="KKadinsure_120001" classname="kkconverter.UnitTests" time="51.687"/>
+  <testcase name="KKadinsure_140001" classname="kkconverter.UnitTests" time="51.196"/>
+  <testcase name="KKadinsure_140002" classname="kkconverter.UnitTests" time="50.889">
+    <failure message="&#10;Expected: a string containing &quot;40&quot;&#10;     but: was &quot;2674368  2674367  10  null&#10;2674369  2674367  20  null&#10;2674370  2674367  30  RLS.Resolve error.&#10;2674371  2674367  20  null&#10;2674372  2674367  30  RLS.Resolve error.&#10;2674373  2674367  20  null&#10;2674374  2674367  30  RLS.Resolve error.&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2674368  2674367  10  null
+2674369  2674367  20  null
+2674370  2674367  30  RLS.Resolve error.
+2674371  2674367  20  null
+2674372  2674367  30  RLS.Resolve error.
+2674373  2674367  20  null
+2674374  2674367  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_140002(UnitTests.java:530)
+</failure>
+    <system-out><![CDATA[Steps are: 
+2674368  2674367  10  null
+2674369  2674367  20  null
+2674370  2674367  30  RLS.Resolve error.
+2674371  2674367  20  null
+2674372  2674367  30  RLS.Resolve error.
+2674373  2674367  20  null
+2674374  2674367  30  RLS.Resolve error.
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO kkconverter.UnitTests - Starting test: KKadinsure_140002()
+[main] INFO kkconverter.UnitTests - message send with CID: 9959279
+[main] INFO kkconverter.UnitTests - End test
+
+]]></system-err>
+  </testcase>
+  <testcase name="KKadinsure_150000" classname="kkconverter.UnitTests" time="51.337">
+    <failure message="&#10;Expected: a string containing &quot;40&quot;&#10;     but: was &quot;2063766  2063765  10  null&#10;2063767  2063765  20  XSLT error.&#10;2063768  2063765  20  XSLT error.&#10;2063769  2063765  20  XSLT error.&#10;2674376  2674375  10  null&#10;2674377  2674375  20  null&#10;2674378  2674375  30  RLS.Resolve error.&#10;2674379  2674375  20  null&#10;2674380  2674375  30  RLS.Resolve error.&#10;2674381  2674375  20  null&#10;2674382  2674375  30  RLS.Resolve error.&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2063766  2063765  10  null
+2063767  2063765  20  XSLT error.
+2063768  2063765  20  XSLT error.
+2063769  2063765  20  XSLT error.
+2674376  2674375  10  null
+2674377  2674375  20  null
+2674378  2674375  30  RLS.Resolve error.
+2674379  2674375  20  null
+2674380  2674375  30  RLS.Resolve error.
+2674381  2674375  20  null
+2674382  2674375  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_150000(UnitTests.java:543)
+</failure>
+    <system-out><![CDATA[Steps are: 
+2063766  2063765  10  null
+2063767  2063765  20  XSLT error.
+2063768  2063765  20  XSLT error.
+2063769  2063765  20  XSLT error.
+2674376  2674375  10  null
+2674377  2674375  20  null
+2674378  2674375  30  RLS.Resolve error.
+2674379  2674375  20  null
+2674380  2674375  30  RLS.Resolve error.
+2674381  2674375  20  null
+2674382  2674375  30  RLS.Resolve error.
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO kkconverter.UnitTests - Starting test: KKadinsure_150000()
+[main] INFO kkconverter.UnitTests - message send with CID: 4665477
+[main] INFO kkconverter.UnitTests - End test
+
+]]></system-err>
+  </testcase>
+  <testcase name="KKadinsure_150001" classname="kkconverter.UnitTests" time="51.941">
+    <failure message="&#10;Expected: a string containing &quot;40&quot;&#10;     but: was &quot;2674384  2674383  10  null&#10;2674385  2674383  20  null&#10;2674386  2674383  30  RLS.Resolve error.&#10;2674387  2674383  20  null&#10;2674388  2674383  30  RLS.Resolve error.&#10;2674389  2674383  20  null&#10;2674390  2674383  30  RLS.Resolve error.&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2674384  2674383  10  null
+2674385  2674383  20  null
+2674386  2674383  30  RLS.Resolve error.
+2674387  2674383  20  null
+2674388  2674383  30  RLS.Resolve error.
+2674389  2674383  20  null
+2674390  2674383  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_150001(UnitTests.java:555)
+</failure>
+    <system-out><![CDATA[Steps are: 
+2674384  2674383  10  null
+2674385  2674383  20  null
+2674386  2674383  30  RLS.Resolve error.
+2674387  2674383  20  null
+2674388  2674383  30  RLS.Resolve error.
+2674389  2674383  20  null
+2674390  2674383  30  RLS.Resolve error.
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO kkconverter.UnitTests - Starting test: KKadinsure_150001()
+[main] INFO kkconverter.UnitTests - message send with CID: 7059185
+[main] INFO kkconverter.UnitTests - End test
+
+]]></system-err>
+  </testcase>
+  <testcase name="KKadinsure_150002" classname="kkconverter.UnitTests" time="52.154">
+    <failure message="&#10;Expected: a string containing &quot;40&quot;&#10;     but: was &quot;2674392  2674391  10  null&#10;2674393  2674391  20  null&#10;2674394  2674391  30  RLS.Resolve error.&#10;2674395  2674391  20  null&#10;2674396  2674391  30  RLS.Resolve error.&#10;2674397  2674391  20  null&#10;2674398  2674391  30  RLS.Resolve error.&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2674392  2674391  10  null
+2674393  2674391  20  null
+2674394  2674391  30  RLS.Resolve error.
+2674395  2674391  20  null
+2674396  2674391  30  RLS.Resolve error.
+2674397  2674391  20  null
+2674398  2674391  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_150002(UnitTests.java:567)
+</failure>
+    <system-out><![CDATA[Steps are: 
+2674392  2674391  10  null
+2674393  2674391  20  null
+2674394  2674391  30  RLS.Resolve error.
+2674395  2674391  20  null
+2674396  2674391  30  RLS.Resolve error.
+2674397  2674391  20  null
+2674398  2674391  30  RLS.Resolve error.
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO kkconverter.UnitTests - Starting test: KKadinsure_150002()
+[main] INFO kkconverter.UnitTests - message send with CID: 0810773
+[main] INFO kkconverter.UnitTests - End test
+
+]]></system-err>
+  </testcase>
+  <testcase name="KKadinsure_1" classname="kkconverter.UnitTests" time="52.83"/>
+  <testcase name="KKadinsure_2" classname="kkconverter.UnitTests" time="51.574"/>
+  <testcase name="KKadinsure_3" classname="kkconverter.UnitTests" time="52.008"/>
+  <testcase name="KKadinsure_4" classname="kkconverter.UnitTests" time="52.855"/>
+  <testcase name="KKadinsure_5" classname="kkconverter.UnitTests" time="51.909"/>
+  <testcase name="KKadinsure_6" classname="kkconverter.UnitTests" time="53.731"/>
+  <testcase name="KKadinsure_7" classname="kkconverter.UnitTests" time="51.897"/>
+  <testcase name="KKadinsure_8" classname="kkconverter.UnitTests" time="51.756"/>
 </testsuite>

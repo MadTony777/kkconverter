@@ -1,4 +1,68 @@
 -------------------------------------------------------------------------------
 Test set: kkconverter.UnitTests
 -------------------------------------------------------------------------------
-Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2,190.155 s - in kkconverter.UnitTests
+Tests run: 43, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 2,223.444 s <<< FAILURE! - in kkconverter.UnitTests
+KKadinsure_140002  Time elapsed: 50.889 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2674368  2674367  10  null
+2674369  2674367  20  null
+2674370  2674367  30  RLS.Resolve error.
+2674371  2674367  20  null
+2674372  2674367  30  RLS.Resolve error.
+2674373  2674367  20  null
+2674374  2674367  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_140002(UnitTests.java:530)
+
+KKadinsure_150000  Time elapsed: 51.337 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2063766  2063765  10  null
+2063767  2063765  20  XSLT error.
+2063768  2063765  20  XSLT error.
+2063769  2063765  20  XSLT error.
+2674376  2674375  10  null
+2674377  2674375  20  null
+2674378  2674375  30  RLS.Resolve error.
+2674379  2674375  20  null
+2674380  2674375  30  RLS.Resolve error.
+2674381  2674375  20  null
+2674382  2674375  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_150000(UnitTests.java:543)
+
+KKadinsure_150001  Time elapsed: 51.941 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2674384  2674383  10  null
+2674385  2674383  20  null
+2674386  2674383  30  RLS.Resolve error.
+2674387  2674383  20  null
+2674388  2674383  30  RLS.Resolve error.
+2674389  2674383  20  null
+2674390  2674383  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_150001(UnitTests.java:555)
+
+KKadinsure_150002  Time elapsed: 52.154 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "40"
+     but: was "2674392  2674391  10  null
+2674393  2674391  20  null
+2674394  2674391  30  RLS.Resolve error.
+2674395  2674391  20  null
+2674396  2674391  30  RLS.Resolve error.
+2674397  2674391  20  null
+2674398  2674391  30  RLS.Resolve error.
+"
+	at kkconverter.UnitTests.checkValues(UnitTests.java:10)
+	at kkconverter.UnitTests.KKadinsure_150002(UnitTests.java:567)
+
