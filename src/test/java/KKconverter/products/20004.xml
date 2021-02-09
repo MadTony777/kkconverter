@@ -6,90 +6,82 @@
          <sch1:correlationId>BDCECA97-6232-45AC-9DB7-12EDF20CA224</sch1:correlationId>
          <ns1:policy>
             <ns1:policyId>${ID}</ns1:policyId>
-            <ns1:objectId>18589401</ns1:objectId>
+            <ns1:objectId>12225985</ns1:objectId>
             <ns1:product>
                <ns1:productId>20004</ns1:productId>
                <ns1:productCode>NS-children</ns1:productCode>
+               <ns1:externalId>20004</ns1:externalId>
+               <ns1:externalSystem>
+                  <ns1:externalSystemId>1</ns1:externalSystemId>
+               </ns1:externalSystem>
                <ns1:name>Дети</ns1:name>
                <ns1:descr>В страховку можно включить риски, связанные с занятием любительским или профессиональным спортом</ns1:descr>
-               <ns1:productRisks>
-                  <ns1:risk>
-                     <ns1:riskId>20004</ns1:riskId>
-                     <ns1:riskCode>Экстренная госпитализация</ns1:riskCode>
-                     <ns1:name>Экстренная госпитализация</ns1:name>
-                     <ns1:descr>Экстренная госпитализация по неотложным показаниям</ns1:descr>
-                  </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
-               </ns1:productRisks>
-               <ns1:productRisks>
-                  <ns1:risk>
-                     <ns1:riskId>20003</ns1:riskId>
-                     <ns1:riskCode>Временная нетрудоспособность (травма)</ns1:riskCode>
-                     <ns1:name>Временная нетрудоспособность (травма)</ns1:name>
-                     <ns1:descr>Временная нетрудоспособность / Травма в результате несчастного случая</ns1:descr>
-                  </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
-               </ns1:productRisks>
-               <ns1:productRisks>
-                  <ns1:risk>
-                     <ns1:riskId>20002</ns1:riskId>
-                     <ns1:riskCode>Инвалидность</ns1:riskCode>
-                     <ns1:name>Инвалидность</ns1:name>
-                     <ns1:descr>Инвалидность в результате несчастного случая</ns1:descr>
-                  </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
-               </ns1:productRisks>
-               <ns1:productRisks>
-                  <ns1:risk>
-                     <ns1:riskId>20001</ns1:riskId>
-                     <ns1:riskCode>Смерть</ns1:riskCode>
-                     <ns1:name>Смерть</ns1:name>
-                     <ns1:descr>Смерть в результате несчастного случая</ns1:descr>
-                  </ns1:risk>
-                  <ns1:beginDate>1900-01-01+03:00</ns1:beginDate>
-                  <ns1:endDate>9999-12-31+03:00</ns1:endDate>
-               </ns1:productRisks>
             </ns1:product>
             <ns1:policyNumber>${NUMBER}</ns1:policyNumber>
-            <ns1:dateCreate>2019-11-29T00:00:00.000+03:00</ns1:dateCreate>
-            <ns1:dateStart>2019-12-10T00:00:00.000+03:00</ns1:dateStart>
-            <ns1:dateEnd>2020-12-10T00:00:00.000+03:00</ns1:dateEnd>
+            <ns1:dateCreate>2020-12-16T00:00:00.000+03:00</ns1:dateCreate>
+            <ns1:dateStart>2020-12-27T00:00:00.000+03:00</ns1:dateStart>
+            <ns1:dateEnd>2021-12-27T00:00:00.000+03:00</ns1:dateEnd>
             <ns1:discount>30.00</ns1:discount>
             <ns1:policyStatus>
                <ns1:policyStatusCode>PAID</ns1:policyStatusCode>
                <ns1:name>Оплачен</ns1:name>
             </ns1:policyStatus>
             <ns1:paymentSchedule>
-               <ns1:payDate>2019-11-29+03:00</ns1:payDate>
+               <ns1:payDate>2020-12-16</ns1:payDate>
                <ns1:currency>
                   <ns1:currencyId>1</ns1:currencyId>
                   <ns1:currencyCode>RUR</ns1:currencyCode>
                   <ns1:name>Российский рубль</ns1:name>
                </ns1:currency>
                <ns1:bill>
-                  <ns1:billId>3460341</ns1:billId>
+                  <ns1:billId>3284322</ns1:billId>
                   <ns1:billCode/>
                   <ns1:billNumber/>
-                  <ns1:payDate>2019-11-29T00:00:00.000+03:00</ns1:payDate>
-                  <ns1:amount>1764.00</ns1:amount>
+                  <ns1:payDate>2020-12-16</ns1:payDate>
+                  <ns1:amount>2016.00</ns1:amount>
                   <ns1:paymentSystem>
-                     <ns1:paymentSystemId>1</ns1:paymentSystemId>
-                     <ns1:paymentSystemCode>ALFABNK</ns1:paymentSystemCode>
-                     <ns1:name>Alfa Bank</ns1:name>
-                     <ns1:descr>Alfa bank payment</ns1:descr>
+                     <ns1:paymentSystemId>4</ns1:paymentSystemId>
+                     <ns1:paymentSystemCode>SBERBANK</ns1:paymentSystemCode>
+                     <ns1:name>Сбербанк</ns1:name>
+                     <ns1:descr>Сбербанк</ns1:descr>
                   </ns1:paymentSystem>
-                  <ns1:paymentTransactionId>410774226037</ns1:paymentTransactionId>
-                  <ns1:paymentDate>2019-11-29T14:52:56.000+03:00</ns1:paymentDate>
+                  <ns1:paymentTransactionId>818053160562</ns1:paymentTransactionId>
+                  <ns1:paymentDate>2020-12-16T17:37:14.000+03:00</ns1:paymentDate>
                   <ns1:isPaid>false</ns1:isPaid>
                </ns1:bill>
-               <ns1:amount>1764.00</ns1:amount>
+               <ns1:amount>2016.00</ns1:amount>
             </ns1:paymentSchedule>
             <ns1:policyObjects>
                <ns1:object xsi:type="ns1:IndividualsXT">
-                  <ns1:objectId>18590736</ns1:objectId>
+                  <ns1:objectId>15555286</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>11</ns1:objectTypeId>
+                  </ns1:objectType>
+                  <ns1:name>пролов капрон цуевич</ns1:name>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                  </ns1:contractorType>
+                  <ns1:isResident>false</ns1:isResident>
+                  <ns1:firstName>капрон</ns1:firstName>
+                  <ns1:surname>пролов</ns1:surname>
+                  <ns1:secondName>цуевич</ns1:secondName>
+                  <ns1:birthDate>2013-12-24</ns1:birthDate>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName>пролов капрон цуевич</ns1:fullName>
+               </ns1:object>
+               <ns1:objectType>
+                  <ns1:objectTypeId>11</ns1:objectTypeId>
+               </ns1:objectType>
+               <ns1:product>
+                  <ns1:productId>20004</ns1:productId>
+               </ns1:product>
+               <ns1:orderNo>2</ns1:orderNo>
+               <ns1:territoryId/>
+               <ns1:remark/>
+            </ns1:policyObjects>
+            <ns1:policyObjects>
+               <ns1:object xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>15555285</ns1:objectId>
                   <ns1:objectType>
                      <ns1:objectTypeId>2</ns1:objectTypeId>
                   </ns1:objectType>
@@ -114,16 +106,16 @@
                <ns1:orderNo>1</ns1:orderNo>
                <ns1:territoryId/>
                <ns1:remark/>
-               <ns1:conditions>
-                  <ns1:conditionId>3672892</ns1:conditionId>
+               <ns1:conditions xsi:type="ns1:NsPolicyObjectsConditionsXT">
+                  <ns1:conditionId>3649003</ns1:conditionId>
                   <ns1:product>
                      <ns1:productId>20004</ns1:productId>
                   </ns1:product>
                   <ns1:name/>
-                  <ns1:premium>1764.00</ns1:premium>
-                  <ns1:insuranceSum>50000.00</ns1:insuranceSum>
-                  <ns1:beginDate>2019-12-10+03:00</ns1:beginDate>
-                  <ns1:endDate>2020-12-10+03:00</ns1:endDate>
+                  <ns1:premium>2016.00</ns1:premium>
+                  <ns1:insuranceSum>160000.00</ns1:insuranceSum>
+                  <ns1:beginDate>2020-12-27</ns1:beginDate>
+                  <ns1:endDate>2021-12-27</ns1:endDate>
                   <ns1:duration>12</ns1:duration>
                   <ns1:conditionProductRisks>
                      <ns1:product>
@@ -132,6 +124,10 @@
                      <ns1:risk>
                         <ns1:riskId>20001</ns1:riskId>
                         <ns1:riskCode>Смерть</ns1:riskCode>
+                        <ns1:externalId>20001</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>1</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Смерть</ns1:name>
                         <ns1:descr>Смерть в результате несчастного случая</ns1:descr>
                      </ns1:risk>
@@ -143,6 +139,10 @@
                      <ns1:risk>
                         <ns1:riskId>20002</ns1:riskId>
                         <ns1:riskCode>Инвалидность</ns1:riskCode>
+                        <ns1:externalId>20002</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>1</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Инвалидность</ns1:name>
                         <ns1:descr>Инвалидность в результате несчастного случая</ns1:descr>
                      </ns1:risk>
@@ -154,6 +154,10 @@
                      <ns1:risk>
                         <ns1:riskId>20003</ns1:riskId>
                         <ns1:riskCode>Временная нетрудоспособность (травма)</ns1:riskCode>
+                        <ns1:externalId>20003</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>1</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Временная нетрудоспособность (травма)</ns1:name>
                         <ns1:descr>Временная нетрудоспособность / Травма в результате несчастного случая</ns1:descr>
                      </ns1:risk>
@@ -165,6 +169,10 @@
                      <ns1:risk>
                         <ns1:riskId>20004</ns1:riskId>
                         <ns1:riskCode>Экстренная госпитализация</ns1:riskCode>
+                        <ns1:externalId>20004</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>1</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Экстренная госпитализация</ns1:name>
                         <ns1:descr>Экстренная госпитализация по неотложным показаниям</ns1:descr>
                      </ns1:risk>
@@ -179,24 +187,28 @@
             </ns1:policyObjects>
             <ns1:participant>
                <ns1:contractor xsi:type="ns1:IndividualsXT">
-                  <ns1:objectId>18590737</ns1:objectId>
+                  <ns1:objectId>15555287</ns1:objectId>
                   <ns1:objectType>
                      <ns1:objectTypeId>2</ns1:objectTypeId>
                      <ns1:code>CONTRACTOR</ns1:code>
                      <ns1:name>Contractor</ns1:name>
                      <ns1:descr>contractor</ns1:descr>
                   </ns1:objectType>
-                  <ns1:name>Борзых Елена Владимировна</ns1:name>
+                  <ns1:name>Петров Петр Петрович</ns1:name>
                   <ns1:descr/>
                   <ns1:docs>
                      <ns1:objectDocType>
                         <ns1:objectDocTypeId>12</ns1:objectDocTypeId>
                         <ns1:objectDocTypeCode>PASSPORT_RF</ns1:objectDocTypeCode>
+                        <ns1:externalId>8F7E6988-F2F9-4C4C-8E7F-3967663173E4</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>3</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Паспорт гражданина РФ</ns1:name>
                      </ns1:objectDocType>
-                     <ns1:series>7518</ns1:series>
-                     <ns1:number>098748</ns1:number>
-                     <ns1:dateIssue>2018-04-23+03:00</ns1:dateIssue>
+                     <ns1:series>5446</ns1:series>
+                     <ns1:number>546546</ns1:number>
+                     <ns1:dateIssue>2010-12-16</ns1:dateIssue>
                      <ns1:whom/>
                      <ns1:subdivisionCode/>
                      <ns1:isMain>false</ns1:isMain>
@@ -204,58 +216,72 @@
                   <ns1:contractorType>
                      <ns1:contractorTypeId>1</ns1:contractorTypeId>
                      <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:externalId>02CD4921-5874-4237-9E37-3755598599E5</ns1:externalId>
+                     <ns1:externalSystem>
+                        <ns1:externalSystemId>3</ns1:externalSystemId>
+                     </ns1:externalSystem>
                      <ns1:name>Individual</ns1:name>
                   </ns1:contractorType>
                   <ns1:isResident>true</ns1:isResident>
                   <ns1:contacts>
-                     <ns1:contactId>11337208220690</ns1:contactId>
+                     <ns1:contactId>11337206503134</ns1:contactId>
                      <ns1:contactType>
                         <ns1:contactTypeId>2</ns1:contactTypeId>
                         <ns1:contactTypeCode>EMAIL</ns1:contactTypeCode>
                         <ns1:name>Email</ns1:name>
                         <ns1:descr>email</ns1:descr>
                      </ns1:contactType>
-                     <ns1:contact>elenborzyh@gmail.com</ns1:contact>
-                     <ns1:contactPerson>Борзых Елена Владимировна</ns1:contactPerson>
+                     <ns1:contact>mail@mail.ru</ns1:contact>
+                     <ns1:contactPerson>Петров Петр Петрович</ns1:contactPerson>
                   </ns1:contacts>
                   <ns1:contacts>
-                     <ns1:contactId>11337208220689</ns1:contactId>
+                     <ns1:contactId>11337206503133</ns1:contactId>
                      <ns1:contactType>
                         <ns1:contactTypeId>1</ns1:contactTypeId>
                         <ns1:contactTypeCode>PHONE</ns1:contactTypeCode>
                      </ns1:contactType>
-                     <ns1:contact>79127753199</ns1:contact>
-                     <ns1:contactPerson>Борзых Елена Владимировна</ns1:contactPerson>
+                     <ns1:contact>70000000019</ns1:contact>
+                     <ns1:contactPerson>Петров Петр Петрович</ns1:contactPerson>
                   </ns1:contacts>
                   <ns1:addresses>
                      <ns1:country>
                         <ns1:countryId>498</ns1:countryId>
                         <ns1:countryCode>Россия</ns1:countryCode>
+                        <ns1:externalId>498</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>1</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Россия</ns1:name>
                      </ns1:country>
                      <ns1:addressType>
                         <ns1:addressTypeId>1</ns1:addressTypeId>
                         <ns1:addressTypeCode>REGISTRATION</ns1:addressTypeCode>
+                        <ns1:externalId>1CC3A819-0BBE-4F66-ABE3-7BFC538832A4</ns1:externalId>
+                        <ns1:externalSystem>
+                           <ns1:externalSystemId>3</ns1:externalSystemId>
+                        </ns1:externalSystem>
                         <ns1:name>Адрес по месту регистрации</ns1:name>
                      </ns1:addressType>
-                     <ns1:region>Челябинская</ns1:region>
+                     <ns1:region>Москва</ns1:region>
                      <ns1:district/>
-                     <ns1:city>Копейск г, Челябинская обл</ns1:city>
+                     <ns1:city>Москва г</ns1:city>
                      <ns1:locality/>
-                     <ns1:street>Петра Томилова Улица</ns1:street>
-                     <ns1:house>18а</ns1:house>
+                     <ns1:street>Спартаковская Улица</ns1:street>
+                     <ns1:house>5</ns1:house>
                      <ns1:building/>
                      <ns1:flat/>
                      <ns1:okato/>
                      <ns1:addressStr/>
-                     <ns1:kladr>740000060000219</ns1:kladr>
+                     <ns1:kladr>770000000000697</ns1:kladr>
+                     <ns1:index/>
+                     <ns1:fias/>
                   </ns1:addresses>
-                  <ns1:firstName>Елена</ns1:firstName>
-                  <ns1:surname>Борзых</ns1:surname>
-                  <ns1:secondName>Владимировна</ns1:secondName>
-                  <ns1:birthDate>1973-03-21+03:00</ns1:birthDate>
+                  <ns1:firstName>Петр</ns1:firstName>
+                  <ns1:surname>Петров</ns1:surname>
+                  <ns1:secondName>Петрович</ns1:secondName>
+                  <ns1:birthDate>1995-12-07</ns1:birthDate>
                   <ns1:gender>0</ns1:gender>
-                  <ns1:fullName>Борзых Елена Владимировна</ns1:fullName>
+                  <ns1:fullName>Петров Петр Петрович</ns1:fullName>
                   <ns1:latName/>
                </ns1:contractor>
                <ns1:participantType>
@@ -264,12 +290,48 @@
                   <ns1:name>Страхователь</ns1:name>
                   <ns1:descr/>
                </ns1:participantType>
-               <ns1:dateStart>2019-12-10+03:00</ns1:dateStart>
-               <ns1:dateEnd>2020-12-10+03:00</ns1:dateEnd>
+               <ns1:dateStart>2020-12-27</ns1:dateStart>
+               <ns1:dateEnd>2021-12-27</ns1:dateEnd>
             </ns1:participant>
             <ns1:participant>
                <ns1:contractor xsi:type="ns1:IndividualsXT">
-                  <ns1:objectId>18590736</ns1:objectId>
+                  <ns1:objectId>15555286</ns1:objectId>
+                  <ns1:objectType>
+                     <ns1:objectTypeId>11</ns1:objectTypeId>
+                     <ns1:code>NS_CHILD</ns1:code>
+                     <ns1:name>Дети</ns1:name>
+                     <ns1:descr>Дети для продукта НС Дети</ns1:descr>
+                  </ns1:objectType>
+                  <ns1:name>пролов капрон цуевич</ns1:name>
+                  <ns1:contractorType>
+                     <ns1:contractorTypeId>1</ns1:contractorTypeId>
+                     <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:externalId>02CD4921-5874-4237-9E37-3755598599E5</ns1:externalId>
+                     <ns1:externalSystem>
+                        <ns1:externalSystemId>3</ns1:externalSystemId>
+                     </ns1:externalSystem>
+                     <ns1:name>Individual</ns1:name>
+                  </ns1:contractorType>
+                  <ns1:isResident>false</ns1:isResident>
+                  <ns1:firstName>капрон</ns1:firstName>
+                  <ns1:surname>пролов</ns1:surname>
+                  <ns1:secondName>цуевич</ns1:secondName>
+                  <ns1:birthDate>2013-12-24</ns1:birthDate>
+                  <ns1:gender>0</ns1:gender>
+                  <ns1:fullName>пролов капрон цуевич</ns1:fullName>
+               </ns1:contractor>
+               <ns1:participantType>
+                  <ns1:participantTypeId>3</ns1:participantTypeId>
+                  <ns1:participantTypeCode>INSURED</ns1:participantTypeCode>
+                  <ns1:name>Застрахованное лицо</ns1:name>
+                  <ns1:descr/>
+               </ns1:participantType>
+               <ns1:dateStart>2020-12-27</ns1:dateStart>
+               <ns1:dateEnd>2021-12-27</ns1:dateEnd>
+            </ns1:participant>
+            <ns1:participant>
+               <ns1:contractor xsi:type="ns1:IndividualsXT">
+                  <ns1:objectId>15555285</ns1:objectId>
                   <ns1:objectType>
                      <ns1:objectTypeId>2</ns1:objectTypeId>
                      <ns1:code>CONTRACTOR</ns1:code>
@@ -280,6 +342,10 @@
                   <ns1:contractorType>
                      <ns1:contractorTypeId>1</ns1:contractorTypeId>
                      <ns1:contractorTypeCode>INDIVIDUAL</ns1:contractorTypeCode>
+                     <ns1:externalId>02CD4921-5874-4237-9E37-3755598599E5</ns1:externalId>
+                     <ns1:externalSystem>
+                        <ns1:externalSystemId>3</ns1:externalSystemId>
+                     </ns1:externalSystem>
                      <ns1:name>Individual</ns1:name>
                   </ns1:contractorType>
                   <ns1:isResident>true</ns1:isResident>
@@ -296,72 +362,9 @@
                   <ns1:name>Застрахованное лицо</ns1:name>
                   <ns1:descr/>
                </ns1:participantType>
-               <ns1:dateStart>2019-12-10+03:00</ns1:dateStart>
-               <ns1:dateEnd>2020-12-10+03:00</ns1:dateEnd>
+               <ns1:dateStart>2020-12-27</ns1:dateStart>
+               <ns1:dateEnd>2021-12-27</ns1:dateEnd>
             </ns1:participant>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>21</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>DATE_CREATE</ns1:classifierTypeCode>
-                  <ns1:name>дата создания записи в таблице</ns1:name>
-                  <ns1:descr>дата создания записи в таблице</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>2019-06-17T09:00:14+03:00</ns1:classifierValue>
-            </ns1:classifiers>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>20</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>WSM_PARTNER_MANAGER_ID</ns1:classifierTypeCode>
-                  <ns1:name>ID сотрудника ВСК, ответственного за WSM-партнёра</ns1:name>
-                  <ns1:descr>ID сотрудника ВСК, ответственного за WSM-партнёра</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>0071126455</ns1:classifierValue>
-            </ns1:classifiers>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>12</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>CHANNEL_TYPE_ID</ns1:classifierTypeCode>
-                  <ns1:name>Канал продаж</ns1:name>
-                  <ns1:descr>Канал продаж</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>410</ns1:classifierValue>
-            </ns1:classifiers>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>19</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>WSM_MANAGER_ID</ns1:classifierTypeCode>
-                  <ns1:name>ID сотрудника ВСК, ответственного за WSM-направление</ns1:name>
-                  <ns1:descr>ID сотрудника ВСК, ответственного за WSM-направление</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>0071126455</ns1:classifierValue>
-            </ns1:classifiers>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>11</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>CONTRACT_DIVISION_ID</ns1:classifierTypeCode>
-                  <ns1:name>ID подразделения ВСК, ответственного за договор</ns1:name>
-                  <ns1:descr>ID подразделения ВСК, ответственного за договор</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>71.00.02.02</ns1:classifierValue>
-            </ns1:classifiers>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>18</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>TEAM_SIZE</ns1:classifierTypeCode>
-                  <ns1:name>Численность коллектива</ns1:name>
-                  <ns1:descr>Численность коллектива</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>2771</ns1:classifierValue>
-            </ns1:classifiers>
-            <ns1:classifiers>
-               <ns1:classifierType>
-                  <ns1:classifierTypeId>10</ns1:classifierTypeId>
-                  <ns1:classifierTypeCode>CONTRACT_RESPONSIBLE_ID</ns1:classifierTypeCode>
-                  <ns1:name>ID пользователя ВСК, ответственного за договор</ns1:name>
-                  <ns1:descr>ID пользователя ВСК, ответственного за договор</ns1:descr>
-               </ns1:classifierType>
-               <ns1:classifierValue>0071002690</ns1:classifierValue>
-            </ns1:classifiers>
             <ns1:classifiers>
                <ns1:classifierType>
                   <ns1:classifierTypeId>2</ns1:classifierTypeId>
@@ -369,7 +372,25 @@
                   <ns1:name>Партнер</ns1:name>
                   <ns1:descr>Идентификатор партнера, который создал полис</ns1:descr>
                </ns1:classifierType>
-               <ns1:classifierValue>35116</ns1:classifierValue>
+               <ns1:classifierValue>1</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>17</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>HOLDING_CAR_DEALER_ID</ns1:classifierTypeCode>
+                  <ns1:name>Код холдинга автодилера</ns1:name>
+                  <ns1:descr>Код холдинга автодилера</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>5</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>16</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>HOLDING_CKS_ID</ns1:classifierTypeCode>
+                  <ns1:name>Код холдинга ЦКС</ns1:name>
+                  <ns1:descr>Код холдинга ЦКС</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>3</ns1:classifierValue>
             </ns1:classifiers>
             <ns1:classifiers>
                <ns1:classifierType>
@@ -378,7 +399,7 @@
                   <ns1:name>ИНН</ns1:name>
                   <ns1:descr>ИНН</ns1:descr>
                </ns1:classifierType>
-               <ns1:classifierValue>7449006184</ns1:classifierValue>
+               <ns1:classifierValue>222</ns1:classifierValue>
             </ns1:classifiers>
             <ns1:classifiers>
                <ns1:classifierType>
@@ -396,7 +417,7 @@
                   <ns1:name>дата обновления записи в таблице</ns1:name>
                   <ns1:descr>дата обновления записи в таблице</ns1:descr>
                </ns1:classifierType>
-               <ns1:classifierValue>2019-11-19T15:34:52+03:00</ns1:classifierValue>
+               <ns1:classifierValue>2019-10-07T06:45:27+03:00</ns1:classifierValue>
             </ns1:classifiers>
             <ns1:classifiers>
                <ns1:classifierType>
@@ -405,7 +426,70 @@
                   <ns1:name>Код НСИ</ns1:name>
                   <ns1:descr>Код НСИ</ns1:descr>
                </ns1:classifierType>
-               <ns1:classifierValue>Ю_7449006184.00000</ns1:classifierValue>
+               <ns1:classifierValue>Ю_9717049581.00000</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>21</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>DATE_CREATE</ns1:classifierTypeCode>
+                  <ns1:name>дата создания записи в таблице</ns1:name>
+                  <ns1:descr>дата создания записи в таблице</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>2018-12-21T17:11:05+03:00</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>20</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>WSM_PARTNER_MANAGER_ID</ns1:classifierTypeCode>
+                  <ns1:name>ID сотрудника ВСК, ответственного за WSM-партнёра</ns1:name>
+                  <ns1:descr>ID сотрудника ВСК, ответственного за WSM-партнёра</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>8</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>12</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CHANNEL_TYPE_ID</ns1:classifierTypeCode>
+                  <ns1:name>Канал продаж</ns1:name>
+                  <ns1:descr>Канал продаж</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>409</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>19</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>WSM_MANAGER_ID</ns1:classifierTypeCode>
+                  <ns1:name>ID сотрудника ВСК, ответственного за WSM-направление</ns1:name>
+                  <ns1:descr>ID сотрудника ВСК, ответственного за WSM-направление</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>7</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>11</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CONTRACT_DIVISION_ID</ns1:classifierTypeCode>
+                  <ns1:name>ID подразделения ВСК, ответственного за договор</ns1:name>
+                  <ns1:descr>ID подразделения ВСК, ответственного за договор</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>00.90.12</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>18</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>TEAM_SIZE</ns1:classifierTypeCode>
+                  <ns1:name>Численность коллектива</ns1:name>
+                  <ns1:descr>Численность коллектива</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>6</ns1:classifierValue>
+            </ns1:classifiers>
+            <ns1:classifiers>
+               <ns1:classifierType>
+                  <ns1:classifierTypeId>10</ns1:classifierTypeId>
+                  <ns1:classifierTypeCode>CONTRACT_RESPONSIBLE_ID</ns1:classifierTypeCode>
+                  <ns1:name>ID пользователя ВСК, ответственного за договор</ns1:name>
+                  <ns1:descr>ID пользователя ВСК, ответственного за договор</ns1:descr>
+               </ns1:classifierType>
+               <ns1:classifierValue>0000129186</ns1:classifierValue>
             </ns1:classifiers>
          </ns1:policy>
       </ns1:getPolicyCCResponse>
