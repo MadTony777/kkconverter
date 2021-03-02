@@ -8,9 +8,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class UnitTests extends BaseClass {
-    kkTestadi kktest = new kkTestadi();
+    private kkTestadi kktest = new kkTestadi();
 
-    Logger log = LoggerFactory.getLogger(UnitTests.class);
+    private Logger log = LoggerFactory.getLogger(UnitTests.class);
 
     @BeforeEach
     public void executedBeforeEach(TestInfo testInfo) {
@@ -23,7 +23,7 @@ public class UnitTests extends BaseClass {
     }
     @Test
     public void KKadinsure_110001() throws Exception {
-        String steps = kktest.converter(generatedString, "110001.xml", environment);
+        String steps = kkTestadi.converter(generatedString, "110001.xml", environment);
         System.out.println("Steps are: \n" + steps);
         checkValues(steps, "10");
         checkValues(steps, "20");
@@ -35,7 +35,7 @@ public class UnitTests extends BaseClass {
 
     @Test
      public void KKadinsure_110002() throws Exception {
-        String steps = kktest.converter(generatedString,"110002.xml", environment);
+        String steps = kkTestadi.converter(generatedString,"110002.xml", environment);
         System.out.println("Steps are: \n" + steps);
         checkValues(steps, "10");
         checkValues(steps, "20");
@@ -47,7 +47,7 @@ public class UnitTests extends BaseClass {
 
     @Test
     public void KKadinsure_110003() throws Exception {
-        String steps = kktest.converter(generatedString,"110003.xml", environment);
+        String steps = kkTestadi.converter(generatedString,"110003.xml", environment);
         System.out.println("Steps are: \n" + steps);
         checkValues(steps, "10");
         checkValues(steps, "20");
@@ -59,7 +59,7 @@ public class UnitTests extends BaseClass {
 
     @Test
     public void KKadinsure_110004() throws Exception {
-        String steps = kktest.converter(generatedString,"110004.xml", environment);
+        String steps = kkTestadi.converter(generatedString,"110004.xml", environment);
         System.out.println("Steps are: \n" + steps);
         checkValues(steps, "10");
         checkValues(steps, "20");
@@ -581,6 +581,18 @@ public class UnitTests extends BaseClass {
     }
 
     @Test
+    public void KKadinsure_140001_NPOOOFLL() throws Exception {
+        String steps = kktest.converter(generatedString,"140001_NPOOOFLL.xml", environment);
+        System.out.println("Steps are: \n" + steps);
+        checkValues(steps, "10");
+        checkValues(steps, "20");
+        checkValues(steps, "30");
+        checkValues(steps, "40");
+        checkValues(steps, "50");
+        checkValues(steps, "60 ");
+    }
+
+    @Test
     public void KKadinsure_160001_new() throws Exception {
         String steps = kktest.converter(generatedString,"160001.xml", environment);
         System.out.println("Steps are: \n" + steps);
@@ -592,18 +604,18 @@ public class UnitTests extends BaseClass {
         checkValues(steps, "60 ");
     }
 
-
-    @Test
-    public void KKadinsure_40003() throws Exception {
-        String steps = kktest.converter(generatedString,"40003.xml", environment);
-        System.out.println("Steps are: \n" + steps);
-        checkValues(steps, "10");
-        checkValues(steps, "20");
-        checkValues(steps, "30");
-        checkValues(steps, "40");
-        checkValues(steps, "50");
-        checkValues(steps, "60 ");
-    }
+//Отключен
+//    @Test
+//    public void KKadinsure_40003() throws Exception {
+//        String steps = kktest.converter(generatedString,"40003.xml", environment);
+//        System.out.println("Steps are: \n" + steps);
+//        checkValues(steps, "10");
+//        checkValues(steps, "20");
+//        checkValues(steps, "30");
+//        checkValues(steps, "40");
+//        checkValues(steps, "50");
+//        checkValues(steps, "60 ");
+//    }
 
 
     @Test

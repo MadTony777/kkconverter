@@ -47,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTests.KKadinsure_140001_new">
+  <component name="RunManager" selected="JUnit.UnitTests.KKadinsure_140001_NPOOOFLL">
     <configuration name="UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kkconverter" />
       <extension name="coverage">
@@ -59,6 +59,22 @@
       <option name="PACKAGE_NAME" value="kkconverter" />
       <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTests.KKadinsure_140001_NPOOOFLL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kkconverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kkconverter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kkconverter" />
+      <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
+      <option name="METHOD_NAME" value="KKadinsure_140001_NPOOOFLL" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,25 +91,6 @@
       <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
       <option name="METHOD_NAME" value="KKadinsure_140001_new" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTests,KKadinsure_150000 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kkconverter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kkconverter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kkconverter" />
-      <option name="MAIN_CLASS_NAME" value="kkconverter.UnitTests" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="kkconverter.UnitTests,KKadinsure_150000" />
-        <pattern testClass="kkconverter.UnitTests,KKadinsure_150002" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitTests.KKadinsure_140001_NPOOOFLL" />
         <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="JUnit.UnitTests.KKadinsure_140001_new" />
         <item itemvalue="JUnit.UnitTests.KKadinsure_20004" />
         <item itemvalue="JUnit.UnitTests.KKadinsure_150002" />
-        <item itemvalue="JUnit.UnitTests,KKadinsure_150000 and 1 more" />
       </list>
     </recent_temporary>
   </component>

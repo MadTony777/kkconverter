@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 
 class BaseClass {
 
-    String arg = System.getProperty("arg", "stage");
+    String arg = System.getProperty("arg", "test");
     public String environment = arg;
 
     static String driverForBD = "oracle.jdbc.driver.OracleDriver";
